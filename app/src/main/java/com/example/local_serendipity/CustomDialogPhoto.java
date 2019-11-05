@@ -8,14 +8,10 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class CustomDialog extends Dialog {
+public class CustomDialogPhoto extends Dialog {
 
-    private TextView mTitleView;
-    private TextView mContentView;
     private Button mLeftButton;
     private Button mRightButton;
-    private String mTitle;
-    private String mContent;
 
     private View.OnClickListener mLeftClickListener;
     private View.OnClickListener mRightClickListener;
@@ -32,8 +28,6 @@ public class CustomDialog extends Dialog {
 
         setContentView(R.layout.activity_custom_dialog_photo);
 
-        mTitleView = (TextView) findViewById(R.id.txt_title);
-        mContentView = (TextView) findViewById(R.id.tv_content1);
         mLeftButton = (Button) findViewById(R.id.btn_yes);
         mRightButton = (Button) findViewById(R.id.btn_no);
 
@@ -54,20 +48,16 @@ public class CustomDialog extends Dialog {
     }
 
     // 클릭버튼이 하나일때 생성자 함수로 클릭이벤트를 받는다.
-    public CustomDialog(Context context, String title,
-                        View.OnClickListener singleListener) {
+    public CustomDialogPhoto(Context context,
+                             View.OnClickListener singleListener) {
         super(context, android.R.style.Theme_Translucent_NoTitleBar);
-        this.mTitle = title;
         this.mLeftClickListener = singleListener;
     }
 
     // 클릭버튼이 확인과 취소 두개일때 생성자 함수로 이벤트를 받는다
-    public CustomDialog(Context context, String title,
-                        String content, View.OnClickListener leftListener,
-                        View.OnClickListener rightListener) {
+    public CustomDialogPhoto(Context context, View.OnClickListener leftListener,
+                             View.OnClickListener rightListener) {
         super(context, android.R.style.Theme_Translucent_NoTitleBar);
-        this.mTitle = title;
-        this.mContent = content;
         this.mLeftClickListener = leftListener;
         this.mRightClickListener = rightListener;
     }

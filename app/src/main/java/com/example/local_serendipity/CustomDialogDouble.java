@@ -10,11 +10,9 @@ import android.widget.TextView;
 
 public class CustomDialogDouble extends Dialog {
 
-    private TextView mTitleView;
     private TextView mContentView;
     private Button mLeftButton;
     private Button mRightButton;
-    private String mTitle;
     private String mContent;
 
     private View.OnClickListener mLeftClickListener;
@@ -30,16 +28,14 @@ public class CustomDialogDouble extends Dialog {
         lpWindow.dimAmount = 0.8f;
         getWindow().setAttributes(lpWindow);
 
-        setContentView(R.layout.activity_custom_dialog);
+        setContentView(R.layout.activity_custom_dialog_double);
 
-        mTitleView = (TextView) findViewById(R.id.txt_title);
         mContentView = (TextView) findViewById(R.id.tv_content1);
         mLeftButton = (Button) findViewById(R.id.btn_yes);
         mRightButton = (Button) findViewById(R.id.btn_no);
 
-        // 제목과 내용을 생성자에서 셋팅한다.
-        //mTitleView.setText(mTitle);
-        //mContentView.setText(mContent);
+        //제목과 내용을 생성자에서 셋팅한다.
+        mContentView.setText(mContent);
 
         // 클릭 이벤트 셋팅
         if (mLeftClickListener != null && mRightClickListener != null) {
@@ -53,20 +49,12 @@ public class CustomDialogDouble extends Dialog {
         }
     }
 
-    // 클릭버튼이 하나일때 생성자 함수로 클릭이벤트를 받는다.
-    public CustomDialogDouble(Context context, String title,
-                              View.OnClickListener singleListener) {
-        super(context, android.R.style.Theme_Translucent_NoTitleBar);
-        this.mTitle = title;
-        this.mLeftClickListener = singleListener;
-    }
 
     // 클릭버튼이 확인과 취소 두개일때 생성자 함수로 이벤트를 받는다
-    public CustomDialogDouble(Context context, String title,
+    public CustomDialogDouble(Context context,
                               String content, View.OnClickListener leftListener,
                               View.OnClickListener rightListener) {
         super(context, android.R.style.Theme_Translucent_NoTitleBar);
-        this.mTitle = title;
         this.mContent = content;
         this.mLeftClickListener = leftListener;
         this.mRightClickListener = rightListener;

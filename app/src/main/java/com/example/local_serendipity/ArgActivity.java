@@ -6,11 +6,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ArgActivity extends AppCompatActivity {
-    private CustomDialog mCustomDialog;
+    private CustomDialogPhoto mCustomDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,15 +47,8 @@ public class ArgActivity extends AppCompatActivity {
 
 
     public void OnClickHandler(View view){
-        /*AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("셋타이틀");
-        AlertDialog alertDialog = builder.create();
-        alertDialog.show();*/
-        mCustomDialog = new CustomDialog(this,
-                "", // 제목
-                "", // 내용
-                leftListener, // 왼쪽 버튼 이벤트
-                rightListener); // 오른쪽 버튼 이벤트
+
+        mCustomDialog = new CustomDialogPhoto(this, leftListener, rightListener);
         mCustomDialog.show();
     }
 }

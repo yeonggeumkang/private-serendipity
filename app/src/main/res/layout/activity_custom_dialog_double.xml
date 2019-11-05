@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/linearLayout">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dialog_box"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/dialog_radius"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.25"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintWidth_percent="0.822"
+        tools:layout_conversion_absoluteHeight="344dp"
+        tools:layout_conversion_absoluteWidth="296dp">
+
+
+        <TextView
+            android:id="@+id/tv_content1"
+            style="@style/Kor16DarkRegularCenter"
+            android:layout_width="fill_parent"
+            android:layout_height="72dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="DOUBLE"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toTopOf="@+id/dialog_box"
+            app:layout_constraintStart_toStartOf="@+id/dialog_box"/>
+
+        <ImageView
+            android:id="@+id/horizontal_line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:srcCompat="@color/colorAlto"
+            app:layout_constraintBottom_toTopOf="@+id/btn_box"/>
+
+        <LinearLayout
+            android:id="@+id/btn_box"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="@+id/dialog_box">
+
+            <Button
+                android:id="@+id/btn_no"
+                style="@style/Kor16BodyMediumCenter"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:gravity="center"
+                android:text="아니오" />
+
+            <ImageView
+                android:id="@+id/vertical_line"
+                android:layout_width="1dp"
+                android:layout_height="12dp"
+                app:srcCompat="@color/colorAlto" />
+
+            <Button
+                android:id="@+id/btn_yes"
+                style="@style/Kor16PointMediumCenter"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorWhite"
+                android:gravity="center"
+                android:text="네" />
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
