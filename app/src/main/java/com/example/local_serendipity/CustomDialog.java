@@ -32,7 +32,7 @@ public class CustomDialog extends Dialog {
 
         setContentView(R.layout.activity_custom_dialog_photo);
 
-        mTitleView = (TextView) findViewById(R.id.txt_title);
+        //mTitleView = (TextView) findViewById(R.id.txt_title);
         mContentView = (TextView) findViewById(R.id.tv_content1);
         mLeftButton = (Button) findViewById(R.id.btn_yes);
         mRightButton = (Button) findViewById(R.id.btn_no);
