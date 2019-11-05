@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/img_tutorial_01_aos"
+    tools:context=".MainActivity">
+
+
+
+
+    <ImageView
+        android:id="@+id/iv_contents"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/black_radius"
+       />
+
+        <TextView
+            android:id="@+id/tv_forYou"
+            style="@style/Eng14PointBoldLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="32dp"
+            android:text="For you."
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/iv_contents" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/Kor24DarkLightLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="52dp"
+            android:text="심리검사"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/iv_contents" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            style="@style/Kor16BodyRegularLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="100dp"
+            android:text="매칭을 위한 성격과 가치관 검사를 실시해\n보세요! 이를 토대로 매칭이 이루어진답니다 :)"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/iv_contents" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

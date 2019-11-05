@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--주조색 -->
+    <color name="colorCornflowerBlue">#6D71FB</color>
+    <color name="colorRoyalBlue">#623cea</color>
+    <color name="colorElectricViolet">#923afd</color>
+    <color name="colorScooter">#28cfdf</color>
+
+    <!-- Dark&Grey (Background) -->
+    <color name="colorConcrete">#f3f3f3</color>
+    <color name="colorGallery">#ededed</color>
+    <color name="colorMercury">#e6e6e6</color>
+
+    <!-- Text Color-->
+    <color name="colorRoyalBlue2">#5b5fe8</color>
+    <color name="colorRadicalRed">#ff3063</color>
+
+
+    <color name="colorBrilliantRose">#f759b2</color>
+    <color name="colorTitanWhite">#eeefff</color>
+    <color name="colorGunPowder">#3c3c57</color>
+    <color name="colorEbonyClay">#29293e</color>
+    <color name="colorMulledWine">#514164</color>
+    <color name="colorNeptune">#6fb7be</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorTransBlack">#40000000</color>
+    <color name="colorTransWhite">#33ffffff</color>
+    <color name="colorMineShaft">#222222</color>
+    <color name="colorDoveGray">#666666</color>
+    <color name="colorDustyGray">#999999</color>
+    <color name="colorSilver">#bbbbbb</color>
+    <color name="colorAlto">#D5D5D5</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+</resources>

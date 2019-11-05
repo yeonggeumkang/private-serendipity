@@ -1,0 +1,4843 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextStyle">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="TextStyle2">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng48BodyBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng48PointBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng48PointBoldLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng48PointBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng48SecondBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng48DarkBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng48SecondBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng48WhiteBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng48WhiteBoldLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng48WhiteBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng48BodyBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng48DarkBoldLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng48DarkBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng48SecondBoldLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng48BodyBoldLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng48BodyMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng48PointMediumLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng48PointMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng48SecondMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng48SecondMediumLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng48PointMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng48WhiteMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng48WhiteMediumLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng48WhiteMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng48BodyMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng48BodyMediumLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng48DarkMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng48DarkMediumLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng48SecondMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng48DarkMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor48DarkMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor48PointMediumLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor48PointMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor48SecondMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor48PointMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor48SecondMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor48WhiteMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor48WhiteMediumLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor48WhiteMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor48BodyMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor48DisableMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor48DarkMediumLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor48DisableMediumLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor48BodyMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor48DisableMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor48DarkMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor48SecondMediumLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor48BodyMediumLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor48DarkRegularLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor48PointRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor48DarkRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor48PointRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor48SecondRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor48DisableRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor48SecondRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor48WhiteRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor48WhiteRegularLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor48WhiteRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor48BodyRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor48DisableRegularLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor48DarkRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor48DisableRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor48BodyRegularLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor48SecondRegularLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor48PointRegularLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor48BodyRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng48PointLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng48PointLightLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng48BodyLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng48SecondLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng48DarkLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng48SecondLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng48WhiteLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng48WhiteLightLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng48WhiteLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng48BodyLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng48DarkLightLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng48DarkLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng48SecondLightLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng48BodyLightLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng48PointLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor48DisableLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor48PointLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor48PointLightLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor48PointLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor48DisableLightLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor48SecondLightLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor48SecondLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor48WhiteLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor48WhiteLightLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor48WhiteLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor48DisableLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor48DarkLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor48DarkLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor48BodyLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor48DarkLightLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor48BodyLightLeft">
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor48SecondLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor48BodyLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng32DarkBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng32PointBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng32PointBoldLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng32PointBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng32BodyBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng32DarkBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng32SecondBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng32WhiteBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng32WhiteBoldLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng32WhiteBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng32BodyBoldLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng32DarkBoldLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng32BodyBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng32SecondBoldLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng32SecondBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng32BodyMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng32PointMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng32PointMediumLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng32PointMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng32SecondMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng32DarkMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng32SecondMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng32WhiteMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng32WhiteMediumLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng32WhiteMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng32BodyMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng32DarkMediumLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng32DarkMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng32SecondMediumLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng32BodyMediumLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor32BodyMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor32PointMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor32PointMediumLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor32PointMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor32DisableMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor32SecondMediumLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor32SecondMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor32WhiteMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor32WhiteMediumLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor32WhiteMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor32DisableMediumLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor32DarkMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor32DisableMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor32BodyMediumLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor32DarkMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor32DarkMediumLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor32SecondMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor32BodyMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor32DarkRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor32DisableRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor32BodyRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor32PointRegularLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor32PointRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor32DisableRegularLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor32SecondRegularLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor32SecondRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor32WhiteRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor32WhiteRegularLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor32WhiteRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor32DisableRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor32DarkRegularLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor32DarkRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor32BodyRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor32SecondRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor32PointRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor32BodyRegularLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng32DarkLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng32PointLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng32BodyLightLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng32PointLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng32DarkLightLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng32SecondLightLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng32SecondLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng32WhiteLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng32WhiteLightLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng32WhiteLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng32DarkLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng32BodyLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng32SecondLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng32BodyLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng32PointLightLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor32DisableLightLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor32DisableLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor32PointLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor32DisableLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor32PointLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor32SecondLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor32SecondLightLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor32SecondLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor32WhiteLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor32DarkLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor32WhiteLightLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor32DarkLightLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor32BodyLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor32DarkLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor32BodyLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor32PointLightLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor32BodyLightLeft">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor32WhiteLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng24DarkBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng24PointBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng24PointBoldLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng24DarkBoldLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng24SecondBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng24SecondBoldLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng24SecondBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng24WhiteBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng24WhiteBoldLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng24DarkBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng24WhiteBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng24BodyBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng24BodyBoldLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng24PointBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng24BodyBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng24BodyMediumLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng24PointMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng24PointRegularLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng24PointRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng24SecondMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng24DarkMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng24SecondMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng24WhiteRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng24WhiteRegularLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng24WhiteRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng24BodyMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng24DarkMediumLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng24DarkMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng24SecondMediumLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng24BodyMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor24BodyMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor24PointMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor24PointMediumLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor24PointMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor24DisableMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor24SecondMediumLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor24SecondMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor24WhiteMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor24WhiteMediumLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor24WhiteMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor24DisableMediumLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor24DarkMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor24DisableMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor24BodyMediumLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor24DarkMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor24DarkMediumLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor24SecondMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor24BodyMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor24DarkRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor24DisableRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor24BodyRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor24PointRegularLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor24PointRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor24DisableRegularLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor24SecondRegularLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor24SecondRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor24WhiteRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor24WhiteRegularLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor24WhiteRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor24DisableRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor24DarkRegularLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor24DarkRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor24BodyRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor24SecondRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor24PointRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor24BodyRegularLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng24DarkLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng24PointLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng24BodyLightLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng24PointLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng24DarkLightLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng24SecondLightLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng24SecondLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng24WhiteLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng24WhiteLightLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng24WhiteLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng24DarkLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng24BodyLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng24SecondLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng24BodyLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng24PointLightLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor24DisableLightLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor24DisableLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor24PointLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor24DisableLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor24PointLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor24SecondLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor24SecondLightLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor24SecondLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor24WhiteLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor24DarkLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor24WhiteLightLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor24DarkLightLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor24BodyLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor24DarkLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor24BodyLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor24PointLightLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor24BodyLightLeft">
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor24WhiteLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng20DarkBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng20PointBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng20PointBoldLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng20DarkBoldLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng20SecondBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng20SecondBoldLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng20SecondBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng20WhiteBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng20WhiteBoldLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng20DarkBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng20WhiteBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng20BodyBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng20BodyBoldLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng20BodyBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng20PointBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng20BodyMediumLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng20PointMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng20PointMediumLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng20PointMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng20SecondMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng20DarkMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng20SecondMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng20WhiteMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng20WhiteMediumLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng20WhiteMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng20BodyMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng20DarkMediumLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng20DarkMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng20SecondMediumLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng20BodyMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor20BodyMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor20DisableMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor20PointMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor20PointMediumLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor20DisableMediumLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor20BodyMediumLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor20SecondMediumLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor20SecondMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor20WhiteMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor20WhiteMediumLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor20DisableMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor20WhiteMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor20DarkMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor20BodyMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor20DarkMediumLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor20DarkMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor20PointMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor20SecondMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor20BodyRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor20DisableRegularLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor20DisableRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor20BodyRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor20DisableRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor20PointRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor20SecondRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor20SecondRegularLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor20SecondRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor20WhiteRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor20DarkRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor20WhiteRegularLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor20DarkRegularLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor20WhiteRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor20DarkRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor20BodyRegularLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor20PointRegularLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor20PointRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng20BodyLightLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng20PointLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng20PointLightLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng20PointLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng20SecondLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng20DarkLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng20SecondLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng20WhiteLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng20WhiteLightLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng20WhiteLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng20BodyLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng20DarkLightLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng20DarkLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng20SecondLightLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng20BodyLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor20BodyLightLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor20DisableLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor20DisableLightLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor20DisableLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor20DarkLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor20PointLightLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor20PointLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor20SecondLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor20BodyLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor20SecondLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor20DarkLightLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor20WhiteLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor20DarkLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor20WhiteLightLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor20PointLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor20WhiteLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor20BodyLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor20SecondLightLeft">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng16BodyBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng16DarkBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng16PointBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng16PointBoldLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng16DarkBoldLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng16WhiteBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng16WhiteBoldLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng16WhiteBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng16BodyBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng16DarkBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng16PointBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng16BodyBoldLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng16BodyMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng16PointMediumLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng16PointMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng16SecondMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng16SecondMediumLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng16PointMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng16WhiteMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng16WhiteMediumLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng16WhiteMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng16DarkMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng16BodyMediumLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng16DarkMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng16DarkMediumLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng16SecondMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng16BodyMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor16DarkMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor16PointMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor16PointMediumLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor16PointMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor16DisableMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor16SecondMediumLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor16SecondMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor16WhiteMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor16WhiteMediumLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor16WhiteMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor16DisableMediumLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor16BodyMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor16DisableMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor16BodyMediumLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor16DarkMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor16DarkMediumLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor16BodyMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor16SecondMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor16DarkRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor16DisableRegularLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor16DisableRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor16PointRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor16BodyRegularLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor16DisableRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor16SecondRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor16SecondRegularLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor16SecondRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor16WhiteRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor16BodyRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor16DarkRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor16WhiteRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor16DarkRegularLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor16BodyRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor16PointRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor16PointRegularLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor16WhiteRegularLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng16PointLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng16PointLightLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng16PointLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng16DarkLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng16SecondLightLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng16SecondLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng16WhiteLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng16WhiteLightLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng16WhiteLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng16DarkLightLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng16BodyLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng16DarkLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng16BodyLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng16SecondLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng16BodyLightLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor16BodyLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor16DisableLightLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor16BodyLightLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor16PointLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor16PointLightLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor16DisableLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor16SecondLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor16SecondLightLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor16SecondLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor16WhiteLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor16DarkLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor16DarkLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor16WhiteLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor16DarkLightLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor16BodyLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor16PointLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor16DisableLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor16WhiteLightLeft">
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng14DarkBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng14DarkBoldLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng14DarkBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng14BodyBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng14BodyBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng14PointBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng14WhiteBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng14WhiteBoldLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng14WhiteBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng14BodyBoldLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng14PointBoldLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng14PointBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng14BodyMediumLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng14PointMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng14PointMediumLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng14PointMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng14SecondMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng14DarkMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng14SecondMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng14WhiteMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng14WhiteMediumLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng14WhiteMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng14BodyMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng14DarkMediumLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng14DarkMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng14SecondMediumLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng14BodyMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor14BodyMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor14DisableMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor14PointMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor14PointMediumLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor14DisableMediumLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor14BodyMediumLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor14SecondMediumLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor14SecondMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor14WhiteMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor14WhiteMediumLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor14DisableMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor14WhiteMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor14DarkMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor14BodyMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor14DarkMediumLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor14DarkMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor14PointMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor14SecondMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor14BodyRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor14DisableRegularLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor14DisableRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor14PointRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor14DisableRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor14PointRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor14SecondRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor14SecondRegularLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor14SecondRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor14BodyRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor14DarkRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor14WhiteRegularLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor14DarkRegularLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor14WhiteRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor14DarkRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor14BodyRegularLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor14PointRegularLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor14WhiteRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng14BodyLightLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng14PointLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng14PointLightLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng14PointLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng14SecondLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng14DarkLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng14SecondLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng14WhiteLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng14WhiteLightLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng14WhiteLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng14BodyLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng14DarkLightLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng14DarkLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng14SecondLightLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng14BodyLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor14BodyLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor14DisableLightLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor14BodyLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor14PointLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor14DisableLightCenter">gray1
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor14PointLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor14SecondLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor14SecondLightLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor14SecondLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor14WhiteLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor14DarkLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor14WhiteLightLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor14DarkLightLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor14WhiteLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor14BodyLightLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor14DarkLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor14PointLightLeft">
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor14DisableLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineSpacingExtra">6sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Eng12BodyBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng12DarkBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng12DarkBoldLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng12DarkBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng12BodyBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng12PointBoldLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng12PointBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng12WhiteBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng12WhiteBoldLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng12WhiteBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng12PointBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng12BodyBoldLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng12BodyMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>n
+    </style>
+
+    <style name="Eng12PointMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng12PointMediumLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng12PointMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng12SecondMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng12DarkMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng12SecondMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng12WhiteMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng12WhiteMediumLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng12WhiteMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng12BodyMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng12DarkMediumLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng12DarkMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng12SecondMediumLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng12BodyMediumLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor12BodyMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor12DisableMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor12PointMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor12PointMediumLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor12DisableMediumLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor12BodyMediumLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor12SecondMediumLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor12SecondMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor12WhiteMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor12WhiteMediumLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor12DisableMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor12WhiteMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor12DarkMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor12BodyMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor12DarkMediumLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor12DarkMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor12PointMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor12SecondMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor12BodyRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor12DisableRegularLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor12DisableRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor12PointRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor12DisableRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor12PointRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor12SecondRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor12SecondRegularLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor12SecondRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor12WhiteRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor12DarkRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor12WhiteRegularLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor12DarkRegularLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor12BodyRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor12DarkRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor12BodyRegularLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor12PointRegularLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor12WhiteRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng12BodyLightLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng12PointLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng12PointLightLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng12PointLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng12SecondLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng12DarkLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng12SecondLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng12WhiteLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng12WhiteLightLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng12WhiteLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng12BodyLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng12DarkLightLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng12DarkLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng12SecondLightLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng12BodyLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor12BodyLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor12DisableLightLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor12DisableLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor12BodyLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor12DisableLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor12PointLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor12SecondLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor12SecondLightLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor12SecondLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor12WhiteLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor12DarkLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor12WhiteLightLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor12DarkLightLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor12WhiteLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor12BodyLightLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor12DarkLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor12PointLightLeft">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor12PointLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng10BodyBoldLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng10DarkBoldLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng10DarkBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng10PointBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng10BodyBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng10DarkBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng10SecondBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng10SecondBoldLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng10SecondBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng10WhiteBoldCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng10WhiteBoldLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng10BodyBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng10WhiteBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng10PointBoldRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng10PointBoldLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng10BodyMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng10PointMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng10PointMediumLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng10PointMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng10SecondMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng10DarkMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng10SecondMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng10WhiteMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng10WhiteMediumLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng10WhiteMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng10BodyMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng10DarkMediumLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng10DarkMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng10SecondMediumLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng10BodyMediumLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor10BodyMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor10DisableMediumLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor10DisableMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor10PointMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor10DisableMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor10BodyMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor10SecondMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor10SecondMediumLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor10SecondMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor10WhiteMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor10DarkMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor10WhiteMediumLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor10DarkMediumLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor10WhiteMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor10BodyMediumLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor10DarkMediumCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor10PointMediumLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor10PointMediumRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor10BodyRegularLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor10DisableRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor10DisableRegularLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor10DisableRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor10DarkRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor10PointRegularLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor10PointRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor10SecondRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor10SecondRegularLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor10SecondRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor10DarkRegularLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor10WhiteRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor10DarkRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor10WhiteRegularLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor10BodyRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor10WhiteRegularRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor10BodyRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor10PointRegularCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng10BodyLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng10DarkLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng10PointLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng10PointLightLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng10PointLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Eng10DarkLightLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng10SecondLightLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng10SecondLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng10WhiteLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng10WhiteLightLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng10WhiteLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Eng10DarkLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Eng10BodyLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Eng10SecondLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Eng10BodyLightLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor10BodyLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor10DarkLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor10DisableLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor10DisableLightLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor10DisableLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorAlto</item>
+    </style>
+
+    <style name="Kor10DarkLightLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor10PointLightLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor10PointLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor10SecondLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor10SecondLightLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor10SecondLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDustyGray</item>
+    </style>
+
+    <style name="Kor10DarkLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorMineShaft</item>
+    </style>
+
+    <style name="Kor10WhiteLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor10BodyLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+
+    <style name="Kor10WhiteLightLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor10PointLightCenter">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorRoyalBlue2</item>
+    </style>
+
+    <style name="Kor10WhiteLightRight">
+        <item name="android:gravity">end</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="Kor10BodyLightLeft">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/colorDoveGray</item>
+    </style>
+</resources>
