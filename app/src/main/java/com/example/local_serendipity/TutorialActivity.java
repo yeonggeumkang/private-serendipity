@@ -30,9 +30,6 @@ public class TutorialActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        //삭제해야함
-        //ImageView myImage = (ImageView) findViewById(R.id.iv_contents);
-        //myImage.setAlpha(25);
 
         ViewPager vpPager = (ViewPager) findViewById(R.id.vpPager);
         adapterViewPager = new MyPagerAdapter(getSupportFragmentManager());
@@ -40,7 +37,6 @@ public class TutorialActivity extends AppCompatActivity {
 
         CircleIndicator indicator = (CircleIndicator) findViewById(R.id.indicator);
         indicator.setViewPager(vpPager);
-
     }
 
     public static class MyPagerAdapter extends FragmentPagerAdapter {
@@ -72,13 +68,5 @@ public class TutorialActivity extends AppCompatActivity {
                     return null;
             }
         }
-
-        /* Returns the page title for the top indicator
-        @Override
-        public CharSequence getPageTitle(int position) {
-            return "Page " + position;
-        }*/
-
-
     }
 }

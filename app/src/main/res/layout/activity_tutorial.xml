@@ -34,7 +34,8 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginBottom="80dp"
-        app:ci_drawable="@drawable/grey_radius"
+        app:ci_drawable="@drawable/violet_radius"
+        app:ci_drawable_unselected="@drawable/grey_radius"
         app:ci_height="8dp"
         app:ci_margin="10dp"
         app:ci_width="8dp"
@@ -60,7 +61,7 @@
         android:layout_height="0dp"
         android:text="시작하기"
         android:textColor="@color/colorWhite"
-        android:background="@color/colorMercury"
+        android:background="@drawable/button_selecor"
         app:layout_constraintHeight_percent="0.0875"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
