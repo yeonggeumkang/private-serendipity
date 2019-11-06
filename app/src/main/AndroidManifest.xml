@@ -28,6 +28,11 @@
         <activity
             android:name=".FavorActivity"
             android:theme="@style/AppTheme.ActionBar.Transparent" />
+
+        <activity
+            android:name=".ProfileActivity"
+            android:theme="@style/AppTheme.ActionBar.Transparent" />
+
     </application>
 
 </manifest>
