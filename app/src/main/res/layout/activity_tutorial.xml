@@ -61,7 +61,7 @@
         android:layout_height="0dp"
         android:text="시작하기"
         android:textColor="@color/colorWhite"
-        android:background="@drawable/button_selecor"
+        android:background="@drawable/button_selector"
         app:layout_constraintHeight_percent="0.0875"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

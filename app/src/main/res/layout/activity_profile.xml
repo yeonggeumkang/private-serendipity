@@ -11,12 +11,13 @@
 
     <ImageView
         android:id="@+id/iv_photo"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintWidth_percent="1"
+        android:padding="0dp"
         app:layout_constraintHeight_percent="0.5"
         app:layout_constraintVertical_bias="0"
-        app:srcCompat="@drawable/img_profile_top_default_aos"
+        android:background="@drawable/img_profile_top_default_aos"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -40,6 +41,8 @@
         android:id="@+id/iv_profile"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        style="@style/Kor20DarkLightCenter"
+        android:padding="0dp"
         app:layout_constraintWidth_percent="0.86"
         app:layout_constraintHeight_percent="0.345"
         app:layout_constraintVertical_bias="0.6"
@@ -49,17 +52,77 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        style="@style/Kor20DarkLightCenter"
+        android:text="사용자"
+        app:layout_constraintHeight_percent="0.045"
+        app:layout_constraintVertical_bias="0.44"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
     <ImageView
         android:id="@+id/horizontal_line"
         android:layout_width="0dp"
-        android:layout_height="1dp"
+        android:layout_height="0dp"
         app:layout_constraintWidth_percent="0.86"
+        app:layout_constraintHeight_percent="0.0015625"
         app:srcCompat="@color/colorAlto"
-        app:layout_constraintVertical_bias="0.4"
+        app:layout_constraintVertical_bias="0.47"
         app:layout_constraintBottom_toBottomOf="@+id/iv_profile"
         app:layout_constraintTop_toTopOf="@+id/iv_profile"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_interest"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        style="@style/Eng14PointBoldLeft"
+        android:text="Interest"
+        app:layout_constraintHeight_percent="0.03125"
+        app:layout_constraintVertical_bias="0.56"
+        app:layout_constraintHorizontal_bias="0.0256"
+        app:layout_constraintTop_toTopOf="@+id/iv_profile"
+        app:layout_constraintStart_toStartOf="@id/iv_profile"
+        app:layout_constraintEnd_toEndOf="@id/iv_profile"
+        app:layout_constraintBottom_toBottomOf="@id/iv_profile"/>
+
+    <TextView
+        android:id="@+id/tv_about_me"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        style="@style/Eng14DarkBoldLeft"
+        android:text="About Me"
+        app:layout_constraintHeight_percent="0.03125"
+        app:layout_constraintVertical_bias="0.6875"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <ImageView
+        android:id="@+id/iv_content1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/dialog_radius"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.0875"
+        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.832"
+        app:layout_constraintWidth_percent="0.42" />
+
 
 
 
