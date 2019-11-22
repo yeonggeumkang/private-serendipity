@@ -29,7 +29,7 @@ public class PastActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_your_profile);
+        setContentView(R.layout.activity_past);
 
         //기본정보 작성 index 0-3
         user.add("강영금");
