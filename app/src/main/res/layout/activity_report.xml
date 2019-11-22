@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTransWhite"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/cl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/ico_close_d"/>
+
+        <TextView
+            android:id="@+id/tv_report_title"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="레포트 타이틀"
+            style="@style/Kor16DarkLightCenter"
+            android:gravity="center" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="640dp"
+            android:background="@drawable/report_radius"
+            android:layout_below="@id/report_photo"
+            android:layout_marginTop="-40dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_subTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="48dp"
+                style="@style/Kor20DarkLightCenter"
+                android:text="주변을 살피며 탐구하는"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/tv_Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Kor20DarkMediumCenter"
+                android:gravity="center"
+                android:text="미어캣"/>
+
+            <ImageView
+                android:id="@+id/horizontal_line"
+                android:layout_width="312dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                android:background="@color/colorGallery" />
+
+            <TextView
+                android:id="@+id/tv_Keywords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Kor16BodyRegularCenter"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:text="Keywords"/>
+
+            <TextView
+                android:id="@+id/tv_keyword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Kor14PointRegularCenter"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="#키워드웅앵웅 \n #키워드는 5자내외"/>
+
+
+            <ImageView
+                android:id="@+id/horizontal_line2"
+                android:layout_width="312dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:background="@color/colorGallery" />
+
+
+            <TextView
+                android:id="@+id/tv_key1"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                style="@style/Kor14PointRegularCenter"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:text="열정인"/>
+
+            <TextView
+                android:id="@+id/tv_body1"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                style="@style/Kor16BodyRegularLeft"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:text="여러 일들에 열정을 타고 난 사람이에요. 다양한 것을 해보고 싶고 많은 것을 경험하고 싶어 하는 성향인 거죠. 매사 열정이 넘쳐서 이것저것 다채로운 일을 합니다. 그래서 취미도 많고, 관심분야도 많습니다. 이런 성향에 말재주가 있는 분이라면 어딜가나 이야깃거리가 끊길 일은 없을 것
+같아요. 밥을 천자만홍이 생명을 돋고, 희 트고, 열락의 열매를 사막이다. 심장은 돋고, 얼마나 청춘의 간에 내는 싶이 우리의 부패뿐이다. 품에 열락의 산야에 현저하게 위하여서."/>
+
+            <TextView
+                android:id="@+id/tv_key2"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                style="@style/Kor14PointRegularCenter"
+                android:layout_marginTop="24dp"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:text="열정인"/>
+
+            <TextView
+                android:id="@+id/tv_body2"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                style="@style/Kor16BodyRegularLeft"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="48dp"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:text="열망의
+있을 이것을 이것이다. 그것은 같이, 충분히 위하여, 수 위하여, 싶이 속잎나고, 온갖 뿐이다.
+새 창공에 끝에 그들의 광야에서 것이다. 이상이 뜨거운지라, 찾아 피어나는 것은"/>
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/report_photo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/img_01"
+            android:layout_below="@+id/tv_report_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="42dp" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTransWhite"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/cl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/ico_close_d"/>
+
+
+        <TextView
+            android:id="@+id/tv_report_title"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="관심사 찾기"
+            style="@style/Kor16DarkLightCenter"
+            android:gravity="center" />
+
+
+        <LinearLayout
+            android:id="@+id/ll_contents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="640dp"
+            android:background="@color/colorWhite"
+            android:layout_below="@id/tv_report_title"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                style="@style/Kor24DarkLightLeft"
+                android:text="어떤 관심사를\n찾고 싶으신가요?🤔"
+                android:gravity="start"
+                android:layout_gravity="center"/>
+
+            <GridLayout
+                android:id="@+id/grid_interest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="450dp"
+                android:layout_gravity="center"
+                android:columnCount="2"
+                android:rowCount="3"
+                android:layout_margin="32dp">
+
+                <Button
+                    android:id="@+id/btn_interest1"
+                    android:layout_width="148dp"
+                    android:layout_height="148dp"
+                    android:background="@drawable/img_inter_01_trip_aos"
+                    android:layout_margin="8dp"/>
+
+                <Button
+                    android:id="@+id/btn_interest2"
+                    android:layout_width="148dp"
+                    android:layout_height="148dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/img_inter_02_sports_aos"/>
+
+                <Button
+                    android:id="@+id/btn_interest3"
+                    android:layout_width="148dp"
+                    android:layout_height="148dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/img_inter_03_music_aos"/>
+
+                <Button
+                    android:id="@+id/btn_interest4"
+                    android:layout_width="148dp"
+                    android:layout_height="148dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/img_inter_04_book_aos"/>
+
+                <Button
+                    android:id="@+id/btn_interest5"
+                    android:layout_width="148dp"
+                    android:layout_height="148dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/img_inter_05_picture_aos"/>
+
+                <Button
+                    android:id="@+id/btn_interest6"
+                    android:layout_width="148dp"
+                    android:layout_height="148dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/img_inter_06_marriage_aos" />
+
+                <Button
+                    android:id="@+id/btn_interest7"
+                    android:layout_width="148dp"
+                    android:layout_height="148dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/img_inter_07_pet_aos"/>
+
+                <Button
+                    android:id="@+id/btn_interest8"
+                    android:layout_width="148dp"
+                    android:layout_height="148dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/img_inter_08_dance_aos"/>
+
+            </GridLayout>
+
+            <Button
+                android:id="@+id/btn_start"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:text="다음"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/button_selector" />
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</ScrollView>

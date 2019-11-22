@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTransWhite"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/cl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_close"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="16dp"
+            android:background="@drawable/ico_close_d"/>
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentRight="true"
+            android:onClick="OnClickHandler"
+            android:background="@drawable/ico_more" />
+
+        <TextView
+            android:id="@+id/tv_report_title"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="검색"
+            style="@style/Kor16DarkLightCenter"
+            android:gravity="center" />
+
+
+        <LinearLayout
+            android:id="@+id/ll_contents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="640dp"
+            android:background="@color/colorTransWhite"
+            android:layout_below="@id/tv_report_title"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                style="@style/Kor24DarkLightLeft"
+                android:text="당신의 #개방적 관심사\n매칭입니다☺"
+                android:gravity="start"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:id="@+id/iv_matching1"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:minHeight="110dp"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+                android:background="@drawable/dialog_radius"
+                android:layout_gravity="center">
+
+                <GridLayout
+                    android:id="@+id/grid_matching1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:columnCount="2"
+                    android:rowCount="3">
+
+                    <ImageView
+                        android:id="@+id/iv_matching_photo1"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/img_01"
+                        android:layout_rowSpan="3"
+                        android:layout_margin="16dp"/>
+
+                    <TextView
+                        android:id="@+id/matching_name1"
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        style="@style/Kor16DarkMediumLeft"
+                        android:text="이제훈"/>
+
+                    <TextView
+                        android:id="@+id/tv_matching_keyword1"
+                        android:layout_width="184dp"
+                        android:layout_height="18dp"
+                        android:layout_marginTop="4dp"
+                        style="@style/Kor12PointRegularLeft"
+                        android:text="#개방적"/>
+
+                    <TextView
+                        android:id="@+id/tv_sub_keyword1"
+                        android:layout_width="184dp"
+                        android:layout_height="18dp"
+                        android:layout_marginTop="4dp"
+                        style="@style/Kor12BodyRegularLeft"
+                        android:text="#기타 키워드 #키워드둘"/>
+
+                </GridLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/iv_matching2"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:minHeight="110dp"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+                android:background="@drawable/dialog_radius"
+                android:layout_gravity="center">
+
+                <GridLayout
+                    android:id="@+id/grid_matching2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:columnCount="2"
+                    android:rowCount="3">
+
+                    <ImageView
+                        android:id="@+id/iv_matching_photo2"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/img_01"
+                        android:layout_rowSpan="3"
+                        android:layout_margin="16dp"/>
+
+                    <TextView
+                        android:id="@+id/matching_name2"
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        style="@style/Kor16DarkMediumLeft"
+                        android:text="이제훈"/>
+
+                    <TextView
+                        android:id="@+id/tv_matching_keyword2"
+                        android:layout_width="184dp"
+                        android:layout_height="18dp"
+                        android:layout_marginTop="4dp"
+                        style="@style/Kor12PointRegularLeft"
+                        android:text="#개방적"/>
+
+                    <TextView
+                        android:id="@+id/tv_sub_keyword2"
+                        android:layout_width="184dp"
+                        android:layout_height="18dp"
+                        android:layout_marginTop="4dp"
+                        style="@style/Kor12BodyRegularLeft"
+                        android:text="#기타 키워드 #키워드둘"/>
+
+                </GridLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/iv_matching3"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:minHeight="110dp"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+                android:background="@drawable/dialog_radius"
+                android:layout_gravity="center">
+
+                <GridLayout
+                    android:id="@+id/grid_matching3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:columnCount="2"
+                    android:rowCount="3">
+
+                    <ImageView
+                        android:id="@+id/iv_matching_photo3"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/img_01"
+                        android:layout_rowSpan="3"
+                        android:layout_margin="16dp"/>
+
+                    <TextView
+                        android:id="@+id/matching_name3"
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        style="@style/Kor16DarkMediumLeft"
+                        android:text="이제훈"/>
+
+                    <TextView
+                        android:id="@+id/tv_matching_keyword3"
+                        android:layout_width="184dp"
+                        android:layout_height="18dp"
+                        android:layout_marginTop="4dp"
+                        style="@style/Kor12PointRegularLeft"
+                        android:text="#개방적"/>
+
+                    <TextView
+                        android:id="@+id/tv_sub_keyword3"
+                        android:layout_width="184dp"
+                        android:layout_height="18dp"
+                        android:layout_marginTop="4dp"
+                        style="@style/Kor12BodyRegularLeft"
+                        android:text="#기타 키워드 #키워드둘"/>
+
+                </GridLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/iv_matching4"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:minHeight="110dp"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+                android:background="@drawable/dialog_radius"
+                android:layout_gravity="center">
+
+                <GridLayout
+                    android:id="@+id/grid_matching4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:columnCount="2"
+                    android:rowCount="3">
+
+                    <ImageView
+                        android:id="@+id/iv_matching_photo4"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/img_01"
+                        android:layout_rowSpan="3"
+                        android:layout_margin="16dp"/>
+
+                    <TextView
+                        android:id="@+id/matching_name4"
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        style="@style/Kor16DarkMediumLeft"
+                        android:text="이제훈"/>
+
+                    <TextView
+                        android:id="@+id/tv_matching_keyword4"
+                        android:layout_width="184dp"
+                        android:layout_height="18dp"
+                        android:layout_marginTop="4dp"
+                        style="@style/Kor12PointRegularLeft"
+                        android:text="#개방적"/>
+
+                    <TextView
+                        android:id="@+id/tv_sub_keyword4"
+                        android:layout_width="184dp"
+                        android:layout_height="18dp"
+                        android:layout_marginTop="4dp"
+                        style="@style/Kor12BodyRegularLeft"
+                        android:text="#기타 키워드 #키워드둘"/>
+
+                </GridLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/iv_matching5"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:minHeight="110dp"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+                android:background="@drawable/dialog_radius"
+                android:layout_gravity="center">
+
+                <GridLayout
+                    android:id="@+id/grid_matching5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:columnCount="2"
+                    android:rowCount="3">
+
+                    <ImageView
+                        android:id="@+id/iv_matching_photo5"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/img_01"
+                        android:layout_rowSpan="3"
+                        android:layout_margin="16dp"/>
+
+                    <TextView
+                        android:id="@+id/matching_name5"
+                        android:layout_width="184dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        style="@style/Kor16DarkMediumLeft"
+                        android:text="이제훈"/>
+
+                    <TextView
+                        android:id="@+id/tv_matching_keyword5"
+                        android:layout_width="184dp"
+                        android:layout_height="18dp"
+                        android:layout_marginTop="4dp"
+                        style="@style/Kor12PointRegularLeft"
+                        android:text="#개방적"/>
+
+                    <TextView
+                        android:id="@+id/tv_sub_keyword5"
+                        android:layout_width="184dp"
+                        android:layout_height="18dp"
+                        android:layout_marginTop="4dp"
+                        style="@style/Kor12BodyRegularLeft"
+                        android:text="#기타 키워드 #키워드둘"/>
+
+                </GridLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+</ScrollView>

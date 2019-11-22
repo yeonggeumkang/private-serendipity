@@ -29,7 +29,27 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, ProfileActivity.class);
+                Intent intent = new Intent(MainActivity.this, MyProfileActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btnYourProfile = (Button)findViewById(R.id.btn_your_profile);
+        btnYourProfile.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, YourProfileActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btnInterestList = (Button)findViewById(R.id.btn_interest_list);
+        btnInterestList.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, InterestListActivity.class);
                 startActivity(intent);
             }
         });

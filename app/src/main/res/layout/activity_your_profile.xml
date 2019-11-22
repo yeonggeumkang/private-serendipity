@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorTransWhite"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/cl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <!-- 상단 프로필 -->
+
+
+        <ImageView
+            android:id="@+id/iv_photo"
+            android:layout_width="match_parent"
+            android:layout_height="360dp"
+            android:background="@drawable/img_profile_top_default_aos" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vpPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.viewpager.widget.ViewPager>
+
+        <ImageView
+            android:id="@+id/iv_profile"
+            android:layout_width="312dp"
+            android:layout_height="156dp"
+            android:layout_marginTop="-52dp"
+            android:background="@drawable/dialog_radius"
+            android:layout_below="@id/iv_photo"
+            android:layout_centerHorizontal="true"
+            />
+        
+        <ImageView
+            android:id="@+id/iv_lock"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:background="@drawable/ico_lock"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="160dp" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/ico_back_w" />
+
+        <Button
+            android:id="@+id/btn_claim"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentRight="true"
+            android:onClick="OnClickHandlerClaim"
+            android:background="@drawable/ico_claim" />
+
+        <TextView
+            android:id="@+id/tv_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-36dp"
+            android:gravity="center"
+            android:layout_below="@id/iv_photo"
+            android:layout_centerHorizontal="true"
+            style="@style/Kor20DarkLightCenter"
+            android:text="사용자" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:orientation="horizontal"
+            android:layout_below="@+id/tv_user_name"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_age"
+                style="@style/Kor14BodyRegularLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="나이" />
+
+            <ImageView
+                android:id="@+id/dot1"
+                android:layout_width="3dp"
+                android:layout_height="3dp"
+                android:background="@drawable/grey_radius"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"/>
+
+            <TextView
+                android:id="@+id/tv_region"
+                style="@style/Kor14BodyRegularLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="지역"/>
+
+            <ImageView
+                android:id="@+id/dot2"
+                android:layout_width="3dp"
+                android:layout_height="3dp"
+                android:background="@drawable/grey_radius"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"/>
+
+            <TextView
+                android:id="@+id/tv_gender"
+                style="@style/Kor14BodyRegularLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="성"/>
+
+            <ImageView
+                android:id="@+id/dot3"
+                android:layout_width="3dp"
+                android:layout_height="3dp"
+                android:background="@drawable/grey_radius"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/matching_percent"
+            android:layout_width="136dp"
+            android:layout_height="24dp"
+            android:background="@drawable/royal_blue_radius"
+            android:layout_above="@+id/iv_profile"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="40dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:background="@drawable/ico_love"
+                android:layout_margin="4dp"/>
+
+            <TextView
+                android:id="@+id/tv_matching"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Eng14WhiteMediumLeft"
+                android:text="\?\?"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Eng14WhiteMediumLeft"
+                android:text="% Match"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/indicator"
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:layout_marginBottom="4dp"
+            app:ci_drawable="@drawable/violet_radius"
+            app:ci_drawable_unselected="@drawable/grey_radius"
+            app:ci_height="4dp"
+            app:ci_margin="8dp"
+            app:ci_width="4dp"
+            android:layout_above="@+id/matching_percent"/>
+
+
+
+        <ImageView
+            android:id="@+id/horizontal_line"
+            android:layout_width="312dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="38dp"
+            android:layout_below="@+id/tv_user_name"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorAlto" />
+
+        <TextView
+            android:id="@+id/tv_interest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="56dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:layout_below="@id/horizontal_line"
+            style="@style/Eng14PointBoldLeft"
+            android:text="Interest" />
+
+        <LinearLayout
+            android:id="@+id/layout_chat"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/cornflower_circle"
+            android:gravity="center"
+            android:layout_below="@+id/iv_profile"
+            android:elevation="5dp"
+            android:layout_marginTop="-20dp">
+
+            <Button
+                android:id="@+id/btn_chat"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:onClick="OnClickHandlerChat"
+                android:background="@drawable/ico_chat_big"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+
+        <!-- About ME -->
+        <TextView
+            android:id="@+id/tv_about_me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:layout_below="@+id/layout_chat"
+            style="@style/Eng14DarkBoldLeft"
+            android:text="About Me" />
+
+
+        <GridLayout
+            android:id="@+id/grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:layout_below="@+id/tv_about_me"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:id="@+id/iv_content1"
+                android:layout_width="156dp"
+                android:layout_height="60dp"
+                android:background="@drawable/dialog_radius"
+                android:layout_margin="4dp" />
+
+            <ImageView
+                android:id="@+id/iv_content2"
+                android:layout_width="156dp"
+                android:layout_height="60dp"
+                android:background="@drawable/dialog_radius"
+                android:layout_margin="4dp" />
+
+            <ImageView
+                android:id="@+id/iv_content3"
+                android:layout_width="156dp"
+                android:layout_height="60dp"
+                android:background="@drawable/dialog_radius"
+                android:layout_margin="4dp" />
+            <ImageView
+                android:id="@+id/iv_content4"
+                android:layout_width="156dp"
+                android:layout_height="60dp"
+                android:background="@drawable/dialog_radius"
+                android:layout_margin="4dp" />
+        </GridLayout>
+
+        <TextView
+            android:id="@+id/tv_title1"
+            android:layout_width="136dp"
+            android:layout_height="18dp"
+            style="@style/Kor12SecondRegularLeft"
+            android:text="흡연"
+            android:layout_below="@id/tv_about_me"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginLeft="56dp"/>
+
+        <TextView
+            android:id="@+id/tv_content1"
+            android:layout_width="136dp"
+            android:layout_height="20dp"
+            style="@style/Kor14DarkRegularLeft"
+            android:text="흡연 내용"
+            android:layout_below="@id/tv_title1"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginLeft="56dp"/>
+
+        <TextView
+            android:id="@+id/tv_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            style="@style/Kor12SecondRegularLeft"
+            android:text="음주"
+            android:layout_below="@id/tv_about_me"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@+id/tv_title1"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"/>
+
+        <TextView
+            android:id="@+id/tv_content2"
+            android:layout_width="136dp"
+            android:layout_height="20dp"
+            style="@style/Kor14DarkRegularLeft"
+            android:text="음주 내용"
+            android:layout_below="@id/tv_title2"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/tv_content1"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"/>
+
+        <TextView
+            android:id="@+id/tv_title3"
+            android:layout_width="136dp"
+            android:layout_height="18dp"
+            style="@style/Kor12SecondRegularLeft"
+            android:text="채식"
+            android:layout_below="@id/grid"
+            android:layout_marginTop="-56dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginLeft="56dp"/>
+
+        <TextView
+            android:id="@+id/tv_content3"
+            android:layout_width="136dp"
+            android:layout_height="20dp"
+            style="@style/Kor14DarkRegularLeft"
+            android:text="채식 내용"
+            android:layout_below="@id/tv_title3"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginLeft="56dp"/>
+
+        <TextView
+            android:id="@+id/tv_title4"
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            style="@style/Kor12SecondRegularLeft"
+            android:text="종교"
+            android:layout_below="@id/grid"
+            android:layout_toRightOf="@+id/tv_title3"
+            android:layout_marginTop="-56dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"/>
+
+        <TextView
+            android:id="@+id/tv_content4"
+            android:layout_width="136dp"
+            android:layout_height="20dp"
+            style="@style/Kor14DarkRegularLeft"
+            android:text="종교 내용"
+            android:layout_below="@id/tv_title4"
+            android:layout_marginTop="4dp"
+            android:layout_toRightOf="@+id/tv_content1"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"/>
+
+
+        <!-- Self Introduction -->
+        <LinearLayout
+            android:id="@+id/iv_intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/profile_radius_gun"
+            android:layout_below="@+id/grid"
+            android:minHeight="142dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_self"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Eng14PointBoldLeft"
+                android:lineSpacingExtra="6sp"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="24dp"
+                android:gravity="center"
+                android:text="Self-introduction" />
+
+
+            <TextView
+                android:id="@+id/tv_intro"
+                style="@style/Kor16WhiteRegularLeft"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/profile_radius_gun"
+                android:layout_below="@+id/tv_self"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="48dp"
+                android:layout_gravity="center"
+                android:gravity="start"
+                android:text="" />
+
+
+            <Button
+                android:id="@+id/btn_submit_intro"
+                android:layout_width="264dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="48dp"
+                android:background="@drawable/favor_radius"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="자기소개 등록하기"
+                android:layout_below="@+id/tv_self"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btn_fold"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="64dp"
+            android:background="@drawable/ico_type_a_fold"
+            android:layout_toRightOf="@+id/tv_content4"
+            android:layout_below="@+id/grid"
+            tools:ignore="NotSibling" />
+
+        <!-- True or False -->
+        <LinearLayout
+            android:id="@+id/iv_true_false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="142dp"
+            android:layout_marginTop="-24dp"
+            android:layout_below="@+id/iv_intro"
+            android:background="@drawable/profile_radius_neptune"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_true_false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Eng14WhiteBoldLeft"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="True or False!" />
+
+            <TextView
+                android:id="@+id/tv_true_false2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Kor12WhiteRegularLeft"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="36dp"
+                android:layout_below="@+id/tv_true_false"
+                android:text="진실 2개 + 거짓 1개" />
+
+            <GridLayout
+                android:id="@+id/grid_tf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="48dp"
+                android:layout_marginLeft="48dp"
+                android:orientation="horizontal"
+                android:columnCount="2"
+                android:rowCount="2">
+
+                <TextView
+                    android:id="@+id/tv_logo1"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:text="1"
+                    style="@style/Eng16PointMediumCenter"
+                    android:background="@drawable/white_circle"/>
+
+                <TextView
+                    android:id="@+id/tv_tf1"
+                    style="@style/Kor16WhiteRegularLeft"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:text="진실거짓1" />
+
+                <TextView
+                    android:id="@+id/tv_logo2"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginBottom="12dp"
+                    android:text="2"
+                    style="@style/Eng16PointMediumCenter"
+                    android:background="@drawable/white_circle"/>
+
+                <TextView
+                    android:id="@+id/tv_tf2"
+                    style="@style/Kor16WhiteRegularLeft"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:text="진실 거짓 2" />
+
+                <TextView
+                    android:id="@+id/tv_logo3"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginBottom="36dp"
+                    android:text="3"
+                    style="@style/Eng16PointMediumCenter"
+                    android:background="@drawable/white_circle"/>
+
+                <TextView
+                    android:id="@+id/tv_tf3"
+                    style="@style/Kor16WhiteRegularLeft"
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginBottom="36dp"
+                    android:text="진실 거짓 3" />
+
+            </GridLayout>
+
+            <ImageView
+                android:id="@+id/iv_tf_none"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@drawable/ico_notice_w"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/tv_tf_none"
+                style="@style/Kor16WhiteRegularLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="36dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="아직 작성하지 않았어요" />
+
+        </LinearLayout>
+
+
+        <!-- 하위 Report -->
+        <TextView
+            android:id="@+id/tv_report"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginStart="36dp"
+            android:layout_below="@+id/iv_true_false"
+            android:gravity="center"
+            style="@style/Eng14DarkBoldLeft"
+            android:text="Report" />
+
+        <LinearLayout
+            android:id="@+id/iv_personality"
+            android:layout_width="312dp"
+            android:layout_height="wrap_content"
+            android:minHeight="110dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/tv_report"
+            android:orientation="vertical"
+            android:background="@drawable/dialog_radius"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/tv_personality"
+                style="@style/Kor14SecondMediumLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="성격 레포트" />
+
+            <GridLayout
+                android:id="@+id/grid_personality"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:columnCount="2"
+                android:rowCount="2">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/img_01"
+                    android:layout_rowSpan="2"
+                    android:layout_margin="16dp"/>
+
+                <TextView
+                    android:layout_width="184dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    style="@style/Kor16DarkMediumLeft"
+                    android:text="주변을 살피며 탐구하는 미어캣1"/>
+
+                <TextView
+                    android:layout_width="184dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="4dp"
+                    style="@style/Kor12PointRegularLeft"
+                    android:text="#개방적 \n#웅앵웅"/>
+
+            </GridLayout>
+
+
+            <Button
+                android:id="@+id/btn_personality"
+                android:layout_width="264dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/favor_radius"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="심리검사 진행하기"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_more_per"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/ico_more_arrow"
+            android:layout_toLeftOf="@+id/btn_fold"
+            android:layout_below="@+id/tv_report"
+            tools:ignore="NotSibling" />
+
+        <!--가치관 레포트-->
+
+        <LinearLayout
+            android:id="@+id/iv_values"
+            android:layout_width="312dp"
+            android:layout_height="wrap_content"
+            android:minHeight="110dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/iv_personality"
+            android:background="@drawable/dialog_radius"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/tv_values"
+                style="@style/Kor14SecondMediumLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="가치관 레포트" />
+
+            <GridLayout
+                android:id="@+id/grid_values"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:columnCount="2"
+                android:rowCount="2">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/img_03"
+                    android:layout_rowSpan="2"
+                    android:layout_margin="16dp"/>
+
+                <TextView
+                    android:layout_width="184dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    style="@style/Kor16DarkMediumLeft"
+                    android:text="누워서 대나무 먹는 판다1"/>
+
+                <TextView
+                    android:layout_width="184dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    style="@style/Kor12PointRegularLeft"
+                    android:text="#개방적 \n#웅앵웅"/>
+
+            </GridLayout>
+
+            <Button
+                android:id="@+id/btn_values"
+                android:layout_width="264dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/favor_radius"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="심리검사 진행하기"
+                android:textColor="@color/colorWhite"
+                android:layout_marginBottom="48dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_more_val"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ico_more_arrow"
+            android:layout_toLeftOf="@+id/btn_fold"
+            android:layout_below="@+id/iv_personality"
+            tools:ignore="NotSibling" />
+
+
+
+    </RelativeLayout>
+</ScrollView>

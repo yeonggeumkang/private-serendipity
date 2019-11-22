@@ -30,7 +30,23 @@
             android:theme="@style/AppTheme.ActionBar.Transparent" />
 
         <activity
-            android:name=".ProfileActivity"
+            android:name=".MyProfileActivity"
+            android:theme="@style/AppTheme.ActionBar.Transparent" />
+
+        <activity
+            android:name=".YourProfileActivity"
+            android:theme="@style/AppTheme.ActionBar.Transparent" />
+
+        <activity
+            android:name=".ReportActivity"
+            android:theme="@style/AppTheme.ActionBar.Transparent" />
+
+        <activity
+            android:name=".InterestListActivity"
+            android:theme="@style/AppTheme.ActionBar.Transparent" />
+
+        <activity
+            android:name=".InterestSearchActivity"
             android:theme="@style/AppTheme.ActionBar.Transparent" />
 
     </application>
