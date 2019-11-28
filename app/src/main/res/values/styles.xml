@@ -23,6 +23,10 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/colorAlto</item>
+        <item name="colorControlActivated">@color/colorRoyalBlue2</item>
+    </style>
 
 
 

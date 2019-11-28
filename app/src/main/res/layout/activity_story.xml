@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:background="@color/colorWhite"
+    android:background="@color/colorTransWhite"
     tools:context=".StoryActivity">
 
     <ImageView
@@ -49,9 +49,9 @@
         android:id="@+id/iv_profile"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        app:layout_constraintWidth_percent="0.87"
+        app:layout_constraintWidth_percent="0.86"
         app:layout_constraintHeight_percent="0.3"
-        app:layout_constraintVertical_bias="0.34"
+        app:layout_constraintVertical_bias="0.3"
         android:background="@drawable/dialog_radius"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -60,11 +60,9 @@
 
     <ImageView
         android:id="@+id/iv_profile_photo"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintWidth_percent="0.22"
-        app:layout_constraintHeight_percent="0.125"
-        app:layout_constraintVertical_bias="0.1875"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintVertical_bias="0.16"
         android:background="@drawable/img_inter_03_music_aos"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -76,7 +74,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        app:layout_constraintVertical_bias="0.305"
+        app:layout_constraintVertical_bias="0.28"
         style="@style/Kor20DarkLightCenter"
         android:text="사용자"
         app:layout_constraintTop_toTopOf="parent"
@@ -89,7 +87,7 @@
         android:layout_width="wrap_content"
         android:layout_height="20dp"
         android:orientation="horizontal"
-        app:layout_constraintVertical_bias="0.34"
+        app:layout_constraintVertical_bias="0.32"
         android:gravity="center"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -156,7 +154,7 @@
         android:layout_height="1dp"
         app:layout_constraintWidth_percent="0.87"
         android:background="@color/colorAlto"
-        app:layout_constraintVertical_bias="0.37"
+        app:layout_constraintVertical_bias="0.36"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -179,6 +177,45 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
+    <ImageView
+        android:id="@+id/iv_profile_score"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/profile_grey_radius"
+        app:layout_constraintVertical_bias="0.42"
+        app:layout_constraintWidth_percent="0.86"
+        app:layout_constraintHeight_percent="0.16"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_avg_score"
+        style="@style/Kor16DarkRegularCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="현재 평균 점수👍"
+        app:layout_constraintVertical_bias="0.4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_score"
+        style="@style/Eng32PointBoldCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.2"
+        app:layout_constraintVertical_bias="0.45"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
     <TextView
         android:id="@+id/tv_self_introduction"
         android:layout_width="0dp"
@@ -186,7 +223,7 @@
         app:layout_constraintWidth_percent="0.87"
         app:layout_constraintHeight_percent="0.032"
         android:gravity="start"
-        app:layout_constraintVertical_bias="0.53125"
+        app:layout_constraintVertical_bias="0.55"
         android:layout_below="@+id/layout_chat"
         style="@style/Eng14DarkBoldLeft"
         android:text="Self-introduction"
@@ -195,21 +232,78 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"  />
 
-    <TextView
-        android:id="@+id/tv_content"
+    <ScrollView
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:gravity="start"
-        android:layout_below="@+id/layout_chat"
-        android:text="카멜레온 같은 성향은 매번 상황에 따라 의견을 잘 바꾸는 경향과 이것도 좋고 저것도 좋은 그런 좋은게 좋은 거지의 경향을 의미합니다. 여러 일들에 열정을 타고 난 사람이에요. 다양한 것을 해보고 싶고 많은 것을 경험하고 싶어 하는 성향인 거죠. 매사 열정이 넘쳐서 이것저것 다채로운 일을 합니다. 그래서 취미도 많고, 관심분야도 많습니다. 이런 성향에 말재주가 있는 분이라면 어딜가나 이야깃거리가 끊길 일은 없을 것 같아요.
-카멜레온 같은 성향은 매번 상황에 따라 의견을 잘 바꾸는 경향과 이것도 좋고 저것도 좋은 그런 좋은게 좋은 거지의 경향을 의미합니다. 여러 일들에 열정을 타고 난 사람이에요. 다양한 것을 해보고 싶고 많은 것을 경험하고 싶어 하는 성향인 거죠. "
-        style="@style/Kor16BodyRegularLeft"
-        app:layout_constraintWidth_percent="0.87"
+        android:layout_height="0dp"
+        app:layout_constraintWidth_percent="0.86"
+        app:layout_constraintHeight_percent="0.4"
+        app:layout_constraintVertical_bias="0.95"
+
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:visibility="gone"/>
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:layout_below="@+id/layout_chat"
+            android:text="카멜레온 같은 성향은 매번 상황에 따ddddㅇㅇ ㅇㅇㅇ ㅇㅇ ㅇ ㅇ ㅇ ㅇ ㅋ ㅋ ㅋ  ㅋ ㅋ라 의견을 잘 바꾸는 경향과 이것도 좋고 저것도 좋은 그런 좋은게 좋은 거지의 경향을 의미합니다. 여러 일들에 열정을 타고 난 사람이에요. 다양한 것을 해보고 싶고 많은 것을 경험하고 싶어 하는 성향인 거죠. 매사 열정이 넘쳐서 이것저것 다채로운 일을 합니다. 그래서 취미도 많고, 관심분야도 많습니다. 이런 성향에 말재주가 있는 분이라면 어딜가나 이야깃거리가 끊길 일은 없을 것 같아요.
+카멜레온 같은 성향은 매번 상황에 따라 의견을 잘 바꾸는 경향과 이것도dddddddddddddddddddddd 좋고 저것도 좋은 그런 좋은게 좋은 거지의 경향을 의미합니다. 여러 일들에 열정을 타고 난 사람이에요. 다양한 것을 해보고 싶고 많은 것을 경험하고 싶어 하는 성향인 거죠. "
+            style="@style/Kor16BodyRegularLeft"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/layout_score"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/ebony_radius"
+        android:gravity="center"
+        app:layout_constraintVertical_bias="0.85"
+        app:layout_constraintWidth_percent="0.9"
+        app:layout_constraintHeight_percent="0.0875"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            style="@style/Eng14WhiteBoldLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Score :"
+            android:layout_gravity="center"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:numStars="5"
+            android:max="5"
+            android:rating="0"
+            android:stepSize="0.5"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            app:layout_constraintVertical_bias="0.85"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+    </LinearLayout>
+    
+
+
 
 
 
