@@ -6,12 +6,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class CustomDialogChat extends Dialog {
 
     private Button mSendButton;
     private Button mCancelButton;
-
+    
     private View.OnClickListener mSendClickListener;
     private View.OnClickListener mCancelClickListener;
 
@@ -30,8 +31,6 @@ public class CustomDialogChat extends Dialog {
 
         mSendButton = (Button) findViewById(R.id.btn_send);
         mCancelButton = (Button) findViewById(R.id.btn_cancel);
-
-        //제목과 내용을 생성자에서 셋팅한다.
 
 
         // 클릭 이벤트 셋팅

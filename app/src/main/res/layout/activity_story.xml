@@ -34,6 +34,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:gravity="center">
+
         <Button
             android:id="@+id/btn_claim"
             android:layout_width="24dp"
