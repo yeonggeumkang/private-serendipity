@@ -49,6 +49,14 @@
             android:name=".InterestSearchActivity"
             android:theme="@style/AppTheme.ActionBar.Transparent" />
 
+        <activity
+            android:name=".PastActivity"
+            android:theme="@style/AppTheme.ActionBar.Transparent" />
+
+        <activity
+            android:name=".StoryActivity"
+            android:theme="@style/AppTheme.ActionBar.Transparent" />
+
     </application>
 
 </manifest>
