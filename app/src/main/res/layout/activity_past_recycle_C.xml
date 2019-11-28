@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorWhite"
+    tools:context=".PastActivity">
+
+    <ImageView
+        android:id="@+id/iv_profile"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/dialog_radius"
+        app:layout_constraintVertical_bias="0.53"
+        app:layout_constraintWidth_percent="0.73"
+        app:layout_constraintHeight_percent="0.52"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/iv_profile_photo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintHeight_percent="0.25"
+        app:layout_constraintVertical_bias="0"
+        android:background="@drawable/img_profile_top_default_aos"
+        app:layout_constraintTop_toTopOf="@id/iv_profile"
+        app:layout_constraintBottom_toBottomOf="@id/iv_profile"
+        app:layout_constraintStart_toStartOf="@id/iv_profile"
+        app:layout_constraintEnd_toEndOf="@id/iv_profile"/>
+
+    <LinearLayout
+        android:id="@+id/matching_percent"
+        android:layout_width="136dp"
+        android:layout_height="24dp"
+        android:background="@drawable/royal_blue_radius"
+        android:gravity="center"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:background="@drawable/ico_love"
+            android:layout_margin="4dp"/>
+
+        <TextView
+            android:id="@+id/tv_matching"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Eng14WhiteMediumLeft"
+            android:text="88"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Eng14WhiteMediumLeft"
+            android:text="% Match"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-36dp"
+        android:gravity="center"
+        android:layout_below="@id/iv_photo"
+        style="@style/Kor20DarkLightCenter"
+        android:text="사용자"
+        app:layout_constraintVertical_bias="0.58"
+        app:layout_constraintTop_toTopOf="@id/iv_profile"
+        app:layout_constraintBottom_toBottomOf="@id/iv_profile"
+        app:layout_constraintStart_toStartOf="@id/iv_profile"
+        app:layout_constraintEnd_toEndOf="@id/iv_profile"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        app:layout_constraintVertical_bias="0.65"
+        app:layout_constraintTop_toTopOf="@id/iv_profile"
+        app:layout_constraintBottom_toBottomOf="@id/iv_profile"
+        app:layout_constraintStart_toStartOf="@id/iv_profile"
+        app:layout_constraintEnd_toEndOf="@id/iv_profile">
+
+        <TextView
+            android:id="@+id/tv_age"
+            style="@style/Kor14BodyRegularLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="나이" />
+
+        <ImageView
+            android:id="@+id/dot1"
+            android:layout_width="3dp"
+            android:layout_height="3dp"
+            android:background="@drawable/grey_radius"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"/>
+
+        <TextView
+            android:id="@+id/tv_region"
+            style="@style/Kor14BodyRegularLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="지역"/>
+
+        <ImageView
+            android:id="@+id/dot2"
+            android:layout_width="3dp"
+            android:layout_height="3dp"
+            android:background="@drawable/grey_radius"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"/>
+
+        <TextView
+            android:id="@+id/tv_gender"
+            style="@style/Kor14BodyRegularLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="성"/>
+
+        <ImageView
+            android:id="@+id/dot3"
+            android:layout_width="3dp"
+            android:layout_height="3dp"
+            android:background="@drawable/grey_radius"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/horizontal_line"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/colorGallery"
+        app:layout_constraintWidth_percent="1"
+        app:layout_constraintVertical_bias="0.7"
+        app:layout_constraintTop_toTopOf="@id/iv_profile"
+        app:layout_constraintBottom_toBottomOf="@id/iv_profile"
+        app:layout_constraintStart_toStartOf="@id/iv_profile"
+        app:layout_constraintEnd_toEndOf="@id/iv_profile"/>
+
+    <TextView
+        android:id="@+id/tv_interest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="@style/Eng14PointBoldLeft"
+        android:text="Interest"
+        app:layout_constraintVertical_bias="0.75"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintTop_toTopOf="@id/iv_profile"
+        app:layout_constraintBottom_toBottomOf="@id/iv_profile"
+        app:layout_constraintStart_toStartOf="@id/iv_profile"
+        app:layout_constraintEnd_toEndOf="@id/iv_profile"/>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/dialog_radius"
+        app:layout_constraintVertical_bias="0.53"
+        app:layout_constraintWidth_percent="0.73"
+        app:layout_constraintHeight_percent="0.52"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:visibility="gone">
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
