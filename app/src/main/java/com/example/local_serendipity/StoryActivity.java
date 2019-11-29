@@ -5,6 +5,7 @@ import android.graphics.PorterDuff;
 import android.graphics.drawable.LayerDrawable;
 import android.media.Rating;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -86,11 +87,32 @@ public class StoryActivity extends AppCompatActivity {
         view3.setVisibility(View.GONE);
     }
 
+    private void setVisible(View view1, View view2, View view3){
+        view1.setVisibility(View.VISIBLE);
+        view2.setVisibility(View.VISIBLE);
+        view3.setVisibility(View.VISIBLE);
+    }
+
+
+
+    Handler delayHandler = new Handler();
+
     class Listener implements RatingBar.OnRatingBarChangeListener {
 
         @Override
         public void onRatingChanged(RatingBar ratingBar, float rating, boolean fromUser) {
-            layoutScore.setVisibility(View.GONE);
+            //layoutScore.setVisibility(View.GONE);
+
+            delayHandler.postDelayed(new Runnable(){
+                @Override
+                public void run(){
+                    layoutScore.setVisibility(View.GONE);
+                    setInvisible(ivLine, layoutProfile);
+                    setVisible(ivProfileScore, tvAvgScore, tvScore);
+                }
+            }, 750);
         }
+
+
     }
 }
