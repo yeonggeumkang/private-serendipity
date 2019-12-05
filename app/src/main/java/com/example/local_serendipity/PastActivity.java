@@ -12,6 +12,8 @@ import androidx.viewpager.widget.ViewPager;
 
 import java.util.ArrayList;
 
+import me.relex.circleindicator.CircleIndicator;
+
 public class PastActivity extends AppCompatActivity {
     FragmentPagerAdapter adapterViewPager;
 
@@ -41,11 +43,14 @@ public class PastActivity extends AppCompatActivity {
         adapterViewPager = new PastActivity.MyPagerAdapter(getSupportFragmentManager());
         vpPager.setAdapter(adapterViewPager);
 
+        CircleIndicator indicator = (CircleIndicator) findViewById(R.id.indicator);
+        indicator.setViewPager(vpPager);
+
 
     }
 
     public static class MyPagerAdapter extends FragmentPagerAdapter {
-        private static int NUM_ITEMS = 3;
+        private static int NUM_ITEMS = 5;
 
         public MyPagerAdapter(FragmentManager fragmentManager) {
             super(fragmentManager);
@@ -63,17 +68,6 @@ public class PastActivity extends AppCompatActivity {
         @Override
         public Fragment getItem(int position) {
             return new PastFragment();
-            /*
-            switch (position) {
-                case 0:
-                    return new PastFragment();
-                case 1:
-                    return new PastFragment();
-                case 2:
-                    return new PastFragment();
-                default:
-                    return null;
-            }*/
         }
     }
 }

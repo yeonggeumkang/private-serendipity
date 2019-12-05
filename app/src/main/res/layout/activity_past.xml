@@ -75,18 +75,17 @@
 
     </androidx.viewpager.widget.ViewPager>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:elevation="5dp"
-        app:layout_constraintWidth_percent="1"
-        app:layout_constraintHeight_percent="1"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:visibility="gone"/>
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="80dp"
+        app:ci_drawable="@drawable/violet_radius"
+        app:ci_drawable_unselected="@drawable/grey_radius"
+        app:ci_height="8dp"
+        app:ci_margin="10dp"
+        app:ci_width="8dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 
 
