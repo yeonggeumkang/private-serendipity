@@ -22,7 +22,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
             super(itemView) ;
 
             // 뷰 객체에 대한 참조. (hold strong reference)
-            textView1 = itemView.findViewById(R.id.tv_user_name) ;
+            textView1 = itemView.findViewById(R.id.tv_item) ;
         }
     }
 
@@ -37,7 +37,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         Context context = parent.getContext() ;
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE) ;
 
-        View view = inflater.inflate(R.layout.recycler_item_past, parent, false) ;
+        View view = inflater.inflate(R.layout.recycler_item_interest, parent, false) ;
         ViewHolder vh = new ViewHolder(view) ;
 
         return vh ;

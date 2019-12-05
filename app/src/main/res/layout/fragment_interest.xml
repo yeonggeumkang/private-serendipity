@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".MyProfileActivity">
+
+    <LinearLayout
+        android:id="@+id/layout_interest_title"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_interest"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp">
+
+        <ImageView
+            android:id="@+id/iv_interest_title"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/img_inter_02_sports_aos" />
+
+        <TextView
+            android:id="@+id/tv_interest_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            android:text="운동/스포츠" />
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler1"
+        android:layout_width="280dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/interest_bg_radius"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp"
+        android:paddingEnd="12dp"
+        android:paddingRight="12dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

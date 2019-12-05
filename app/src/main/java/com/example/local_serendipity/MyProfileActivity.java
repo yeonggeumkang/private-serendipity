@@ -9,13 +9,22 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.viewpager.widget.ViewPager;
 
 import java.util.ArrayList;
+
+import me.relex.circleindicator.CircleIndicator;
 
 public class MyProfileActivity extends AppCompatActivity {
 
     ArrayList user = new ArrayList();
     int count = 0;
+    FragmentPagerAdapter adapterViewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -163,5 +172,50 @@ public class MyProfileActivity extends AppCompatActivity {
             }
         });
 
+        //ViewPager 적용
+        ViewPager vpPager = (ViewPager) findViewById(R.id.vpPager);
+        adapterViewPager = new MyProfileActivity.MyPagerAdapter(getSupportFragmentManager());
+        vpPager.setAdapter(adapterViewPager);
+
+        CircleIndicator indicator = (CircleIndicator) findViewById(R.id.indicator);
+        indicator.setViewPager(vpPager);
+
+        /* 리사이클러뷰에 표시할 데이터 리스트 생성.
+        ArrayList<String> list = new ArrayList<>();
+        list.add("자전거");
+        list.add("요가/필라테스");
+        list.add("레슬링");
+        list.add("3대운동 300");
+
+        // 리사이클러뷰에 LinearLayoutManager 객체 지정.
+        RecyclerView recyclerView = findViewById(R.id.recycler1) ;
+        recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)) ;
+
+        // 리사이클러뷰에 SimpleTextAdapter 객체 지정.
+        RecyclerAdapter adapter = new RecyclerAdapter(list) ;
+        recyclerView.setAdapter(adapter) ; */
+
+    }
+
+    public static class MyPagerAdapter extends FragmentPagerAdapter {
+        private static int NUM_ITEMS = 3;
+
+        public MyPagerAdapter(FragmentManager fragmentManager) {
+            super(fragmentManager);
+        }
+
+        // Returns total number of pages
+        // getCount() : 뷰페이저의 전체 페이지 수 결정
+        @Override
+        public int getCount() {
+            return NUM_ITEMS;
+        }
+
+        // Returns the fragment to display for that page
+        // getItem() : 해당하는 페이지의 프래그먼트 생성 후 리턴
+        @Override
+        public Fragment getItem(int position) {
+            return new InterestFragment();
+        }
     }
 }

@@ -62,7 +62,7 @@
         <ImageView
             android:id="@+id/iv_profile"
             android:layout_width="312dp"
-            android:layout_height="156dp"
+            android:layout_height="221dp"
             android:layout_marginTop="-52dp"
             android:background="@drawable/dialog_radius"
             android:layout_below="@id/iv_photo"
@@ -172,6 +172,8 @@
             android:layout_centerHorizontal="true"
             android:background="@color/colorAlto" />
 
+
+        <!-- Interest -->
         <TextView
             android:id="@+id/tv_interest"
             android:layout_width="wrap_content"
@@ -183,6 +185,46 @@
             android:layout_below="@id/horizontal_line"
             style="@style/Eng14PointBoldLeft"
             android:text="Interest" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/vpPager"
+            android:layout_width="280dp"
+            android:layout_height="130dp"
+            android:layout_below="@id/tv_interest"
+            android:layout_centerHorizontal="true">
+
+        </androidx.viewpager.widget.ViewPager>
+
+        <me.relex.circleindicator.CircleIndicator
+            android:id="@+id/indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="10dp"
+            android:layout_marginTop="24dp"
+            app:ci_drawable="@drawable/violet_radius"
+            app:ci_drawable_unselected="@drawable/grey_radius"
+            app:ci_height="4dp"
+            app:ci_margin="4dp"
+            app:ci_width="4dp"
+            android:layout_below="@id/tv_interest"
+            android:layout_toRightOf="@id/iv_profile"
+            android:layout_marginLeft="-48dp"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler1"
+            android:layout_width="280dp"
+            android:layout_height="48dp"
+            android:background="@drawable/interest_bg_radius"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="49dp"
+            android:layout_below="@id/tv_interest"
+            android:paddingEnd="12dp"
+            android:paddingRight="12dp"
+            android:paddingStart="8dp"
+            android:paddingLeft="8dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
 
 
         <!-- About ME -->
