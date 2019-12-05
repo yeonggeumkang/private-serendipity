@@ -22,11 +22,9 @@
 
     <LinearLayout
         android:id="@+id/layout_claim"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:background="@drawable/white_circle"
-        app:layout_constraintWidth_percent="0.13"
-        app:layout_constraintHeight_percent="0.075"
         app:layout_constraintHorizontal_bias="0.9"
         app:layout_constraintVertical_bias="0.05625"
         app:layout_constraintTop_toTopOf="parent"
@@ -223,7 +221,7 @@
         app:layout_constraintWidth_percent="0.87"
         app:layout_constraintHeight_percent="0.032"
         android:gravity="start"
-        app:layout_constraintVertical_bias="0.55"
+        app:layout_constraintVertical_bias="0.56"
         android:layout_below="@+id/layout_chat"
         style="@style/Eng14DarkBoldLeft"
         android:text="Self-introduction"
@@ -237,7 +235,7 @@
         android:layout_height="0dp"
         app:layout_constraintWidth_percent="0.86"
         app:layout_constraintHeight_percent="0.4"
-        app:layout_constraintVertical_bias="0.95"
+        app:layout_constraintVertical_bias="0.96"
 
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
