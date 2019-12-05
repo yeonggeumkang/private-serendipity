@@ -8,6 +8,7 @@
     tools:context=".PastActivity">
 
 
+
     <ImageView
         android:id="@+id/iv_profile"
         android:layout_width="0dp"
@@ -74,7 +75,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="-36dp"
         android:gravity="center"
-        android:layout_below="@id/iv_photo"
         style="@style/Kor20DarkLightCenter"
         android:text="사용자"
         app:layout_constraintVertical_bias="0.58"
@@ -192,6 +192,7 @@
         android:visibility="gone">
 
     </LinearLayout>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
