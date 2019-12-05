@@ -8,7 +8,7 @@
     android:background="@color/colorWhite"
     tools:context=".FavorActivity">
 
-    <ImageButton
+    <ImageView
         android:id="@+id/ib_back"
         android:layout_width="0dp"
         android:layout_height="0dp"
