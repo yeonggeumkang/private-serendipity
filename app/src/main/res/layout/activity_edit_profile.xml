@@ -189,8 +189,10 @@
 
             <TextView
                 android:id="@+id/tv_region"
-                android:layout_width="wrap_content"
+                android:layout_width="312dp"
                 android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="start"
                 style="@style/Kor14DarkMediumLeft"
                 android:text="지역"
                 android:layout_below="@+id/line1"
@@ -209,8 +211,10 @@
 
             <TextView
                 android:id="@+id/tv_height"
-                android:layout_width="wrap_content"
+                android:layout_width="312dp"
                 android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="start"
                 style="@style/Kor14DarkMediumLeft"
                 android:text="키"
                 android:layout_below="@+id/line2"
@@ -228,8 +232,10 @@
             <!--체형-->
             <TextView
                 android:id="@+id/tv_body"
-                android:layout_width="wrap_content"
+                android:layout_width="312dp"
                 android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="start"
                 style="@style/Kor14DarkMediumLeft"
                 android:text="체형"
                 android:layout_below="@+id/line3"
@@ -247,8 +253,10 @@
             <!-- 관심사 및 기호 -->
             <TextView
                 android:id="@+id/tv_interest"
-                android:layout_width="wrap_content"
+                android:layout_width="312dp"
                 android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="start"
                 style="@style/Kor14DarkMediumLeft"
                 android:text="관심사 및 기호"
                 android:layout_below="@+id/line4"
@@ -266,17 +274,73 @@
             <!-- 진실거짓 -->
             <TextView
                 android:id="@+id/tv_TF"
-                android:layout_width="wrap_content"
+                android:layout_width="312dp"
                 android:layout_height="20dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="start"
                 style="@style/Kor14DarkMediumLeft"
                 android:text="True or False"
                 android:layout_below="@+id/line5"
-                android:layout_marginTop="24dp"
-                android:layout_margin="24dp"/>
-            
+                android:layout_marginTop="24dp" />
+
+            <TextView
+                style="@style/Kor12BodyRegularLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textColor="@color/colorDoveGray"
+                android:layout_toRightOf="@+id/tv_TF"
+                android:layout_below="@id/line5"
+                android:layout_marginLeft="-224dp"
+                android:layout_marginTop="25dp"
+                android:text="진실 2개 + 거짓 1개" />
 
 
-        </RelativeLayout>
+            <EditText
+                android:id="@+id/et_tf1"
+                android:layout_width="312dp"
+                android:layout_height="48dp"
+                android:background="@drawable/custom_edit_text"
+                android:layout_centerHorizontal="true"
+                android:textSize="14sp"
+                android:textColor="@color/colorSilver"
+                android:lineSpacingExtra="6sp"
+                android:layout_below="@id/tv_TF"
+                android:layout_marginTop="16dp"
+                android:paddingLeft="8dp"
+                android:text="내용을 입력해주세요"/>
+
+            <EditText
+                android:id="@+id/et_tf2"
+                android:layout_width="312dp"
+                android:layout_height="48dp"
+                android:background="@drawable/custom_edit_text"
+                android:layout_centerHorizontal="true"
+                android:textSize="14sp"
+                android:textColor="@color/colorSilver"
+                android:lineSpacingExtra="6sp"
+                android:layout_below="@+id/et_tf1"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="8dp"
+                android:text="내용을 입력해주세요"/>
+
+            <EditText
+                android:id="@+id/et_tf3"
+                android:layout_width="312dp"
+                android:layout_height="48dp"
+                android:background="@drawable/custom_edit_text"
+                android:layout_centerHorizontal="true"
+                android:textSize="14sp"
+                android:textColor="@color/colorSilver"
+                android:lineSpacingExtra="6sp"
+                android:layout_below="@id/et_tf2"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="48dp"
+                android:paddingLeft="8dp"
+                android:text="내용을 입력해주세요"/>
+
+
+
+       </RelativeLayout>
 
 
 
