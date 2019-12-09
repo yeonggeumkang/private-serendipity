@@ -31,6 +31,17 @@ public class MyProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_profile_rel);
 
+        //Set Setting Button
+        Button btnSetting = (Button)findViewById(R.id.btn_setting);
+        btnSetting.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MyProfileActivity.this, EditProfileActivity.class);
+                startActivity(intent);
+            }
+        });
+
         //기본정보 작성 index 0-3
         user.add("강영금");
         user.add("24");
