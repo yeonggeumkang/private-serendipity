@@ -252,7 +252,7 @@
 
             <!-- 관심사 및 기호 -->
             <TextView
-                android:id="@+id/tv_interest"
+                android:id="@+id/tv_title_interest"
                 android:layout_width="312dp"
                 android:layout_height="20dp"
                 android:layout_centerHorizontal="true"
@@ -260,15 +260,57 @@
                 style="@style/Kor14DarkMediumLeft"
                 android:text="관심사 및 기호"
                 android:layout_below="@+id/line4"
-                android:layout_marginTop="24dp"
-                android:layout_margin="24dp"/>
+                android:layout_marginTop="24dp" />
+
+            <TextView
+                android:id="@+id/tv_interest"
+                style="@style/Kor16DarkRegularLeft"
+                android:layout_width="312dp"
+                android:layout_height="56dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/tv_title_interest"
+                android:layout_marginTop="31dp"
+                android:text="관심사"
+                android:textColor="@color/colorMineShaft"/>
+
+            <ImageView
+                android:id="@+id/line_under_interest"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/tv_interest"
+                android:background="@color/colorGallery"/>
+
+            <LinearLayout
+                android:id="@+id/layout_favor"
+                android:layout_width="312dp"
+                android:layout_height="56dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/line_under_interest">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="기호"
+                    style="@style/Kor16DarkRegularLeft"
+                    android:textColor="@color/colorMineShaft"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/line_under_favor"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/layout_favor"
+                android:background="@color/colorGallery"/>
 
             <ImageView
                 android:id="@+id/line5"
                 android:layout_width="match_parent"
                 android:layout_height="8dp"
                 android:layout_marginTop="24dp"
-                android:layout_below="@id/tv_interest"
+                android:layout_below="@id/line_under_favor"
                 android:background="@color/colorGray"/>
 
             <!-- 진실거짓 -->
