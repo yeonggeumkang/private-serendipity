@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Local_Serendipity</string>
+    <string name="city_prompt">임시</string>
+    <string name="sub_city_prompt">시/군/구</string>
+    <string name="height_prompt">cm</string>
+
 </resources>

@@ -196,15 +196,53 @@
                 style="@style/Kor14DarkMediumLeft"
                 android:text="지역"
                 android:layout_below="@+id/line1"
-                android:layout_marginTop="24dp"
-                android:layout_margin="24dp"/>
+                android:layout_marginTop="24dp"/>
+
+            <Spinner
+                android:id="@+id/spinner_city"
+                android:layout_width="312dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_edit_text"
+                style="@style/Kor16DarkRegularLeft"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/tv_region"
+                android:layout_marginTop="16dp"/>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ico_type_a_fold"
+                android:layout_toRightOf="@id/spinner_city"
+                android:layout_below="@id/tv_region"
+                android:layout_marginLeft="-32dp"
+                android:layout_marginTop="24dp"/>
+
+            <Spinner
+                android:id="@+id/spinner_sub_city"
+                android:layout_width="312dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_edit_text"
+                android:prompt="@string/sub_city_prompt"
+                style="@style/Kor16DarkRegularLeft"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/spinner_city"
+                android:layout_marginTop="8dp"/>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ico_type_a_fold"
+                android:layout_toRightOf="@id/spinner_sub_city"
+                android:layout_below="@id/spinner_city"
+                android:layout_marginLeft="-32dp"
+                android:layout_marginTop="16dp"/>
 
             <ImageView
                 android:id="@+id/line2"
                 android:layout_width="match_parent"
                 android:layout_height="8dp"
                 android:layout_marginTop="24dp"
-                android:layout_below="@id/tv_region"
+                android:layout_below="@id/spinner_sub_city"
                 android:background="@color/colorGray"/>
 
             <!-- 키 -->
@@ -218,15 +256,34 @@
                 style="@style/Kor14DarkMediumLeft"
                 android:text="키"
                 android:layout_below="@+id/line2"
-                android:layout_marginTop="24dp"
-                android:layout_margin="24dp"/>
+                android:layout_marginTop="24dp" />
+
+            <Spinner
+                android:id="@+id/spinner_height"
+                android:layout_width="312dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_edit_text"
+                android:prompt="@string/height_prompt"
+                style="@style/Kor16DarkRegularLeft"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/tv_height"
+                android:layout_marginTop="16dp"/>
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/ico_type_a_fold"
+                android:layout_toRightOf="@id/spinner_city"
+                android:layout_below="@id/tv_height"
+                android:layout_marginLeft="-32dp"
+                android:layout_marginTop="24dp"/>
 
             <ImageView
                 android:id="@+id/line3"
                 android:layout_width="match_parent"
                 android:layout_height="8dp"
                 android:layout_marginTop="24dp"
-                android:layout_below="@id/tv_height"
+                android:layout_below="@id/spinner_height"
                 android:background="@color/colorGray"/>
 
             <!--체형-->
