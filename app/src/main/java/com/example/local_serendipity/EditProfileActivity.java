@@ -16,13 +16,33 @@ public class EditProfileActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_profile);
 
+        //Set City spinner
         Spinner spinnerCity = (Spinner)findViewById(R.id.spinner_city);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+        ArrayAdapter<CharSequence> adapterC = ArrayAdapter.createFromResource(this,
                 R.array.city_array, R.layout.support_simple_spinner_dropdown_item);
-        adapter.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item);
-        spinnerCity.setAdapter(adapter);
+        adapterC.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item);
+        spinnerCity.setAdapter(adapterC);
 
         spinnerCity.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
+
+        //Set height spinner
+        Spinner spinnerHeight = (Spinner)findViewById(R.id.spinner_height);
+        ArrayAdapter<CharSequence> adapterH = ArrayAdapter.createFromResource(this,
+                R.array.height_array, R.layout.support_simple_spinner_dropdown_item);
+        adapterH.setDropDownViewResource(R.layout.support_simple_spinner_dropdown_item);
+        spinnerHeight.setAdapter(adapterH);
+
+        spinnerHeight.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
 
