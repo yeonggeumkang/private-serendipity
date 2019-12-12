@@ -60,6 +60,7 @@
         app:layout_constraintHorizontal_bias="1"
         android:background="@drawable/ico_save_active"
         android:visibility="invisible"
+        android:onClick="OnClickHandlerSubmit"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -296,15 +297,70 @@
                 style="@style/Kor14DarkMediumLeft"
                 android:text="체형"
                 android:layout_below="@+id/line3"
-                android:layout_marginTop="24dp"
-                android:layout_margin="24dp"/>
+                android:layout_marginTop="24dp" />
+
+            <LinearLayout
+                android:id="@+id/layout_body"
+                android:layout_width="312dp"
+                android:layout_height="48dp"
+                android:layout_below="@id/tv_body"
+                android:layout_marginTop="16dp"
+                android:layout_centerHorizontal="true">
+
+                <Button
+                    android:id="@+id/btn_body1"
+                    android:layout_width="78dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/custom_edit_text"
+                    android:text="마름"
+                    android:gravity="center"
+                    android:onClick="OnClickBtnBody"
+                    style="@style/Kor16DarkRegularCenter"
+                    android:textColor="@color/colorMineShaft"/>
+
+                <Button
+                    android:id="@+id/btn_body2"
+                    android:layout_width="78dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/custom_edit_text"
+                    android:text="보통"
+                    android:gravity="center"
+                    android:onClick="OnClickBtnBody"
+                    style="@style/Kor16DarkRegularCenter"
+                    android:textColor="@color/colorMineShaft"/>
+
+                <Button
+                    android:id="@+id/btn_body3"
+                    android:layout_width="78dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/custom_edit_text"
+                    android:text="다부짐"
+                    android:gravity="center"
+                    android:onClick="OnClickBtnBody"
+                    style="@style/Kor16DarkRegularCenter"
+                    android:textColor="@color/colorMineShaft"/>
+
+                <Button
+                    android:id="@+id/btn_body4"
+                    android:layout_width="78dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/custom_edit_text"
+                    android:text="통통한"
+                    android:gravity="center"
+                    android:onClick="OnClickBtnBody"
+                    style="@style/Kor16DarkRegularCenter"
+                    android:textColor="@color/colorMineShaft"/>
+
+            </LinearLayout>
+
+
 
             <ImageView
                 android:id="@+id/line4"
                 android:layout_width="match_parent"
                 android:layout_height="8dp"
                 android:layout_marginTop="24dp"
-                android:layout_below="@id/tv_body"
+                android:layout_below="@id/layout_body"
                 android:background="@color/colorGray"/>
 
             <!-- 관심사 및 기호 -->
