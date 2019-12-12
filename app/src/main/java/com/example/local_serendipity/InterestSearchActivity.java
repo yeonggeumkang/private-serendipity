@@ -12,7 +12,7 @@ public class InterestSearchActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_interest_search);
+        setContentView(R.layout.activity_search_interest);
 
         //close button 활성화
         Button btnClose = (Button)findViewById(R.id.btn_close);

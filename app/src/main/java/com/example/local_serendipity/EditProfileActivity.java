@@ -54,5 +54,25 @@ public class EditProfileActivity extends AppCompatActivity {
             }
         });
 
+<<<<<<< Updated upstream
+=======
+        //Set Body Buttons
+        btnBody1 = (Button)findViewById(R.id.btn_body1);
+        btnBody2 = (Button)findViewById(R.id.btn_body2);
+        btnBody3 = (Button)findViewById(R.id.btn_body3);
+        btnBody4 = (Button)findViewById(R.id.btn_body4);
+
+        //Set Interest Button
+        Button btnInterest = (Button)findViewById(R.id.btn_more_interest);
+        btnInterest.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(EditProfileActivity.this, InterestSearchActivity.class);
+                startActivity(intent);
+            }
+        });
+
+>>>>>>> Stashed changes
     }
 }
