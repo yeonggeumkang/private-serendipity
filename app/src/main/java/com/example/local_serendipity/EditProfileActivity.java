@@ -97,7 +97,7 @@ public class EditProfileActivity extends AppCompatActivity {
             }
         });
     }
-    // Start Chatting
+
     private View.OnClickListener YesListener = new View.OnClickListener() {
         public void onClick(View v) {
             Toast.makeText(getApplicationContext(), "저장", Toast.LENGTH_SHORT).show();
