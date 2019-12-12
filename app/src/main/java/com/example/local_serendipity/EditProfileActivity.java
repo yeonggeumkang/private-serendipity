@@ -90,7 +90,6 @@ public class EditProfileActivity extends AppCompatActivity {
         //Set Interest Button
         Button btnInterest = (Button)findViewById(R.id.btn_more_interest);
         btnInterest.setOnClickListener(new View.OnClickListener(){
-
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(EditProfileActivity.this, InterestSearchActivity.class);

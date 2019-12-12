@@ -91,13 +91,15 @@
                     android:layout_width="148dp"
                     android:layout_height="148dp"
                     android:background="@drawable/img_inter_01_trip_aos"
-                    android:layout_margin="8dp"/>
+                    android:layout_margin="8dp"
+                    android:onClick="OnClickInterest"/>
 
                 <Button
                     android:id="@+id/btn_interest2"
                     android:layout_width="148dp"
                     android:layout_height="148dp"
                     android:layout_margin="8dp"
+                    android:onClick="OnClickInterest"
                     android:background="@drawable/img_inter_02_sports_aos"/>
 
                 <Button
@@ -105,6 +107,7 @@
                     android:layout_width="148dp"
                     android:layout_height="148dp"
                     android:layout_margin="8dp"
+                    android:onClick="OnClickInterest"
                     android:background="@drawable/img_inter_03_music_aos"/>
 
                 <Button
@@ -119,6 +122,7 @@
                     android:layout_width="148dp"
                     android:layout_height="148dp"
                     android:layout_margin="8dp"
+                    android:onClick="OnClickInterest"
                     android:background="@drawable/img_inter_05_picture_aos"/>
 
                 <Button
@@ -126,6 +130,7 @@
                     android:layout_width="148dp"
                     android:layout_height="148dp"
                     android:layout_margin="8dp"
+                    android:onClick="OnClickInterest"
                     android:background="@drawable/img_inter_06_marriage_aos" />
 
                 <Button
@@ -133,6 +138,7 @@
                     android:layout_width="148dp"
                     android:layout_height="148dp"
                     android:layout_margin="8dp"
+                    android:onClick="OnClickInterest"
                     android:background="@drawable/img_inter_07_pet_aos"/>
 
                 <Button
@@ -140,6 +146,7 @@
                     android:layout_width="148dp"
                     android:layout_height="148dp"
                     android:layout_margin="8dp"
+                    android:onClick="OnClickInterest"
                     android:background="@drawable/img_inter_08_dance_aos"/>
 
             </GridLayout>
@@ -147,7 +154,7 @@
         </RelativeLayout>
     </ScrollView>
     <Button
-        android:id="@+id/btn_start"
+        android:id="@+id/btn_next"
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:text="다음"
