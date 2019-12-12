@@ -35,11 +35,11 @@ public class MyProfileActivity extends AppCompatActivity {
         user.add("무교");
 
         //자기소개 index 8
-        //user.add(null);
-        user.add("안녕하세요 저희는 성균관대학교 교육학과에서 현대학습이론 과목을 수강하며" +
+        user.add(null);
+        /*user.add("안녕하세요 저희는 성균관대학교 교육학과에서 현대학습이론 과목을 수강하며" +
                 " 발표불안에 대한 탐구를 진행중입니다. 이에 여러분들의 발표불안에 대한 개인적인 " +
                 "생각을 듣고자 본 설문을 진행하게 되었습니다. 본인의 주관적인 생각을 솔직하게 " +
-                "답변해주시면 감사하겠습니다. 번호를 남겨주시면 추첨을 통해 소정의 기프티콘을 지급하도록 하겠습니다. 감사합니다! :D ");
+                "답변해주시면 감사하겠습니다. 번호를 남겨주시면 추첨을 통해 소정의 기프티콘을 지급하도록 하겠습니다. 감사합니다! :D ");*/
 
         //진실거짓 index 9-11
         user.add("리버풀 만세");
@@ -93,6 +93,13 @@ public class MyProfileActivity extends AppCompatActivity {
             tvIntroduction.setText(intro);
             btnIntroduction.setVisibility(View.GONE);
         }
+        btnIntroduction.setOnClickListener(new View.OnClickListener(){
+                @Override
+                public void onClick(View view) {
+                    Intent intent = new Intent(MyProfileActivity.this, MyStoryActivity.class);
+                    startActivity(intent);
+                }
+            });
 
         Button btnFold = (Button)findViewById(R.id.btn_fold);
         btnFold.setOnClickListener(new View.OnClickListener(){

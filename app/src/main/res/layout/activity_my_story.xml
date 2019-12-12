@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/colorWhite"
+    tools:context=".MyStoryActivity">
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/ico_close_d"
+        app:layout_constraintVertical_bias="0.025"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:layout_width="248dp"
+        android:layout_height="24dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintVertical_bias="0.025"
+        android:textSize="16sp"
+        android:textColor="@color/colorMineShaft"
+        android:gravity="center_horizontal"
+        android:text="자기소개"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_pre_submit"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintVertical_bias="0.025"
+        app:layout_constraintHorizontal_bias="1"
+        android:background="@drawable/ico_save_default"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_active_submit"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintVertical_bias="0.025"
+        app:layout_constraintHorizontal_bias="1"
+        android:background="@drawable/ico_save_active"
+        android:visibility="invisible"
+        android:onClick="OnClickHandlerSubmit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/Kor24PointLightLeft"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="당신의 이야기를\n입력해주세요✍️"
+        android:textColor="@color/colorMineShaft"
+        android:bufferType="spannable"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintHeight_percent="0.1"
+        app:layout_constraintVertical_bias="0.15"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:minWidth="312dp"
+        android:minHeight="240dp"
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintHeight_percent="0.375"
+        app:layout_constraintVertical_bias="0.45"
+        android:background="@drawable/custom_edit_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <EditText
+            android:id="@+id/et_introduction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_radius"
+            android:text="내용을 입력해주세요"
+            style="@style/Kor14DarkRegularLeft"
+            android:textSize="14sp"
+            android:textColor="@color/colorSilver"
+            android:padding="8dp"
+            android:layout_gravity="start"
+            android:lineSpacingExtra="6sp" />
+
+    </ScrollView>
+
+    <TextView
+        style="@style/Kor12PointRegularLeft"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="자기소개 내용을 진실되고 정성을 다해 작성해주시기 바랍니다!\n그러지 않을 경우, 심사에 통과하지 못할 확률이 높습니다."
+        app:layout_constraintWidth_percent="0.8"
+        app:layout_constraintVertical_bias="0.7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
