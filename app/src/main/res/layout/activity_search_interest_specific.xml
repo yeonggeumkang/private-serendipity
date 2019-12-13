@@ -139,326 +139,123 @@
                 android:layout_centerHorizontal="true"
                 android:layout_below="@id/layout_title1"
                 android:layout_marginTop="8dp"/>
-            <!--
-            <RelativeLayout
-                android:layout_width="312dp"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/line_interest1"
-                android:layout_centerHorizontal="true">
-
-                <TextView
-                    android:id="@+id/tv_int1_1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:background="@drawable/interest_radius_white"
-                    android:gravity="center"
-                    android:padding="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="4dp"
-                    android:layout_marginLeft="4dp"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginRight="4dp"
-                    android:text="자전거"
-                    android:textColor="@color/colorMineShaft"
-                    android:layout_gravity="center_vertical"/>
-
-                <TextView
-                    android:id="@+id/tv_int1_2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:background="@drawable/interest_radius_white"
-                    android:gravity="center"
-                    android:padding="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="4dp"
-                    android:layout_marginLeft="4dp"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginRight="4dp"
-                    android:text="자전거"
-                    android:textColor="@color/colorMineShaft"
-                    android:layout_gravity="center_vertical"
-                    android:layout_toRightOf="@+id/tv_int1_1"/>
-
-                <TextView
-                    android:id="@+id/tv_int1_3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:background="@drawable/interest_radius_white"
-                    android:gravity="center"
-                    android:padding="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="4dp"
-                    android:layout_marginLeft="4dp"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginRight="4dp"
-                    android:text="자전거"
-                    android:textColor="@color/colorMineShaft"
-                    android:layout_gravity="center_vertical"
-                    android:layout_toRightOf="@id/tv_int1_2"/>
-
-                <TextView
-                    android:id="@+id/tv_int1_4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:background="@drawable/interest_radius_white"
-                    android:gravity="center"
-                    android:padding="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="4dp"
-                    android:layout_marginLeft="4dp"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginRight="4dp"
-                    android:text="자전거"
-                    android:textColor="@color/colorMineShaft"
-                    android:layout_gravity="center_vertical"
-                    android:layout_below="@id/tv_int1_1"/>
-
-                <TextView
-                    android:id="@+id/tv_int1_5"
-                    android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:background="@drawable/interest_radius_white"
-                    android:gravity="center"
-                    android:padding="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="4dp"
-                    android:layout_marginLeft="4dp"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginRight="4dp"
-                    android:text="자전거"
-                    android:textColor="@color/colorMineShaft"
-                    android:layout_gravity="center_vertical"
-                    android:layout_toRightOf="@+id/tv_int1_1"
-                    android:layout_below="@id/tv_int1_2"/>
-
-                <TextView
-                    android:id="@+id/tv_int1_6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:background="@drawable/interest_radius_white"
-                    android:gravity="center"
-                    android:padding="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="4dp"
-                    android:layout_marginLeft="4dp"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginRight="4dp"
-                    android:text="자전거"
-                    android:textColor="@color/colorMineShaft"
-                    android:layout_gravity="center_vertical"
-                    android:layout_toRightOf="@id/tv_int1_2"
-                    android:layout_below="@id/tv_int1_1"/>
-
-                <TextView
-                    android:id="@+id/tv_int1_7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:background="@drawable/interest_radius_white"
-                    android:gravity="center"
-                    android:padding="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="4dp"
-                    android:layout_marginLeft="4dp"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginRight="4dp"
-                    android:text="자전거"
-                    android:textColor="@color/colorMineShaft"
-                    android:layout_gravity="center_vertical"
-                    android:layout_below="@id/tv_int1_4"/>
-
-                <TextView
-                    android:id="@+id/tv_int1_8"
-                    android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:background="@drawable/interest_radius_white"
-                    android:gravity="center"
-                    android:padding="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="4dp"
-                    android:layout_marginLeft="4dp"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginRight="4dp"
-                    android:text="자전거"
-                    android:textColor="@color/colorMineShaft"
-                    android:layout_gravity="center_vertical"
-                    android:layout_toRightOf="@+id/tv_int1_1"
-                    android:layout_below="@id/tv_int1_4"/>
-
-                <TextView
-                    android:id="@+id/tv_int1_9"
-                    android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:background="@drawable/interest_radius_white"
-                    android:gravity="center"
-                    android:padding="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="4dp"
-                    android:layout_marginLeft="4dp"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginRight="4dp"
-                    android:text="자전거"
-                    android:textColor="@color/colorMineShaft"
-                    android:layout_gravity="center_vertical"
-                    android:layout_toRightOf="@id/tv_int1_2"
-                    android:layout_below="@id/tv_int1_4"/>
-
-                <TextView
-                android:id="@+id/tv_int1_10"
-                android:layout_width="wrap_content"
-                android:layout_height="32dp"
-                android:background="@drawable/interest_radius_white"
-                android:gravity="center"
-                android:padding="16dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="4dp"
-                android:layout_marginLeft="4dp"
-                android:layout_marginStart="4dp"
-                android:layout_marginRight="4dp"
-                android:text="자전거"
-                android:textColor="@color/colorMineShaft"
-                android:layout_gravity="center_vertical"
-                android:layout_below="@id/tv_int1_7"/>
-
-                <TextView
-                    android:id="@+id/tv_int1_11"
-                    android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:background="@drawable/interest_radius_white"
-                    android:gravity="center"
-                    android:padding="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="4dp"
-                    android:layout_marginLeft="4dp"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginRight="4dp"
-                    android:text="자전거"
-                    android:textColor="@color/colorMineShaft"
-                    android:layout_gravity="center_vertical"
-                    android:layout_toRightOf="@+id/tv_int1_1"
-                    android:layout_below="@id/tv_int1_7"/>
-
-                <TextView
-                    android:id="@+id/tv_int1_12"
-                    android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:background="@drawable/interest_radius_white"
-                    android:gravity="center"
-                    android:padding="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="4dp"
-                    android:layout_marginLeft="4dp"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginRight="4dp"
-                    android:text="자전거"
-                    android:textColor="@color/colorMineShaft"
-                    android:layout_gravity="center_vertical"
-                    android:layout_toRightOf="@id/tv_int1_2"
-                    android:layout_below="@id/tv_int1_7"/>
-
-                <TextView
-                    android:id="@+id/tv_int1_13"
-                    android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:background="@drawable/interest_radius_white"
-                    android:gravity="center"
-                    android:padding="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="4dp"
-                    android:layout_marginLeft="4dp"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginRight="4dp"
-                    android:text="자전거"
-                    android:textColor="@color/colorMineShaft"
-                    android:layout_gravity="center_vertical"
-                    android:layout_below="@id/tv_int1_10"/>
-
-                <TextView
-                    android:id="@+id/tv_int1_14"
-                    android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:background="@drawable/interest_radius_white"
-                    android:gravity="center"
-                    android:padding="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="4dp"
-                    android:layout_marginLeft="4dp"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginRight="4dp"
-                    android:text="자전거"
-                    android:textColor="@color/colorMineShaft"
-                    android:layout_gravity="center_vertical"
-                    android:layout_toRightOf="@+id/tv_int1_1"
-                    android:layout_below="@id/tv_int1_10"/>
-
-                <TextView
-                    android:id="@+id/tv_int1_15"
-                    android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:background="@drawable/interest_radius_white"
-                    android:gravity="center"
-                    android:padding="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="4dp"
-                    android:layout_marginLeft="4dp"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginRight="4dp"
-                    android:text="자전거"
-                    android:textColor="@color/colorMineShaft"
-                    android:layout_gravity="center_vertical"
-                    android:layout_toRightOf="@id/tv_int1_2"
-                    android:layout_below="@id/tv_int1_10"/>
-
-                <TextView
-                    android:id="@+id/tv_int1_16"
-                    android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:background="@drawable/interest_radius_white"
-                    android:gravity="center"
-                    android:padding="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="4dp"
-                    android:layout_marginLeft="4dp"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginRight="4dp"
-                    android:text="자전거"
-                    android:textColor="@color/colorMineShaft"
-                    android:layout_gravity="center_vertical"
-                    android:layout_below="@id/tv_int1_14"/>
-
-                <TextView
-                    android:id="@+id/tv_int1_17"
-                    android:layout_width="wrap_content"
-                    android:layout_height="32dp"
-                    android:background="@drawable/interest_radius_white"
-                    android:gravity="center"
-                    android:padding="16dp"
-                    android:layout_marginTop="8dp"
-                    android:layout_marginEnd="4dp"
-                    android:layout_marginLeft="4dp"
-                    android:layout_marginStart="4dp"
-                    android:layout_marginRight="4dp"
-                    android:text="자전거"
-                    android:textColor="@color/colorMineShaft"
-                    android:layout_gravity="center_vertical"
-                    android:layout_toRightOf="@+id/tv_int1_1"
-                    android:layout_below="@id/tv_int1_14"/>
-
-            </RelativeLayout>
 
             <GridView
                 android:id="@+id/gv_interest1"
                 android:layout_width="312dp"
-                android:layout_height="300dp"
+                android:layout_height="wrap_content"
                 android:layout_below="@id/line_interest1"
                 android:layout_centerHorizontal="true"
                 android:verticalSpacing="0dp"
                 android:horizontalSpacing="0dp"
-                android:numColumns="3"
+                android:numColumns="1"
                 android:stretchMode="columnWidth"
                 android:gravity="center_vertical"
-                android:visibility="gone">
+                android:layout_marginTop="16dp">
+            </GridView>
 
-            </GridView>    -->
+
+            <LinearLayout
+                android:id="@+id/layout_title2"
+                android:layout_width="312dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="40dp"
+                android:layout_below="@id/gv_interest1"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:id="@+id/iv_interest2"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/img_inter_03_music_aos"
+                    android:layout_marginRight="16dp"/>
+
+                <TextView
+                    android:id="@+id/tv_interest2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="음악/악기"
+                    style="@style/Kor16DarkMediumLeft"
+                    android:textColor="@color/colorMineShaft"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/line_interest2"
+                android:layout_width="312dp"
+                android:layout_height="1dp"
+                android:background="@color/colorGallery"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/layout_title2"
+                android:layout_marginTop="8dp"/>
+
+            <GridView
+                android:id="@+id/gv_interest2"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line_interest2"
+                android:layout_centerHorizontal="true"
+                android:verticalSpacing="0dp"
+                android:horizontalSpacing="0dp"
+                android:numColumns="1"
+                android:stretchMode="columnWidth"
+                android:gravity="center_vertical"
+                android:layout_marginTop="16dp">
+            </GridView>
+
+
+            <LinearLayout
+                android:id="@+id/layout_title3"
+                android:layout_width="312dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="40dp"
+                android:layout_below="@id/gv_interest2"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:id="@+id/iv_interest3"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/img_inter_04_book_aos"
+                    android:layout_marginRight="16dp"/>
+
+                <TextView
+                    android:id="@+id/tv_interest3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:text="음악/악기"
+                    style="@style/Kor16DarkMediumLeft"
+                    android:textColor="@color/colorMineShaft"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/line_interest3"
+                android:layout_width="312dp"
+                android:layout_height="1dp"
+                android:background="@color/colorGallery"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/layout_title3"
+                android:layout_marginTop="8dp"/>
+
+            <GridView
+                android:id="@+id/gv_interest3"
+                android:layout_width="312dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line_interest3"
+                android:layout_centerHorizontal="true"
+                android:verticalSpacing="0dp"
+                android:horizontalSpacing="0dp"
+                android:numColumns="1"
+                android:stretchMode="columnWidth"
+                android:gravity="center_vertical"
+                android:layout_marginTop="16dp">
+            </GridView>
+
+
+
 
 
 
