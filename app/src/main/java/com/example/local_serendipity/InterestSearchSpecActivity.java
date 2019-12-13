@@ -12,6 +12,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import java.util.ArrayList;
 
@@ -67,14 +68,30 @@ public class InterestSearchSpecActivity extends AppCompatActivity {
 
             // 커스텀 아답타 생성
         GridAdapter adapterA = new GridAdapter (getApplicationContext(),list);
-        GridView gv1 = (GridView)findViewById(R.id.gv_interest1);
-        GridView gv2 = (GridView)findViewById(R.id.gv_interest2);
+        //GridView gv1 = (GridView)findViewById(R.id.gv_interest1);
+        //GridView gv2 = (GridView)findViewById(R.id.gv_interest2);
         GridView gv3 = (GridView)findViewById(R.id.gv_interest3);
 
-        gv1.setAdapter(adapterA);
-        gv2.setAdapter(adapterA);
+        //gv1.setAdapter(adapterA);
+        //gv2.setAdapter(adapterA);
         gv3.setAdapter(adapterA);
 
+
+        //리사이클러뷰에 표시할 데이터 리스트 생성.
+
+        // 리사이클러뷰에 LinearLayoutManager 객체 지정.
+        RecyclerView recyclerView1 = findViewById(R.id.recycler1) ;
+        RecyclerView recyclerView2 = findViewById(R.id.recycler2) ;
+
+        recyclerView1.setLayoutManager(new StaggeredGridLayoutManager(3,StaggeredGridLayoutManager.VERTICAL));
+        recyclerView2.setLayoutManager(new StaggeredGridLayoutManager(3,StaggeredGridLayoutManager.VERTICAL));
+
+        //recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)) ;
+
+        // 리사이클러뷰에 SimpleTextAdapter 객체 지정.
+        RecyclerAdapter2 adapter = new RecyclerAdapter2(list) ;
+        recyclerView1.setAdapter(adapter) ;
+        recyclerView2.setAdapter(adapter);
     }
 
 

@@ -77,11 +77,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
+
+
         <RelativeLayout
             android:id="@+id/cl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center">
+
+
 
             <TextView
                 android:id="@+id/tv_title"
@@ -140,19 +144,18 @@
                 android:layout_below="@id/layout_title1"
                 android:layout_marginTop="8dp"/>
 
-            <GridView
-                android:id="@+id/gv_interest1"
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler1"
                 android:layout_width="312dp"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/line_interest1"
                 android:layout_centerHorizontal="true"
-                android:verticalSpacing="0dp"
-                android:horizontalSpacing="0dp"
-                android:numColumns="1"
-                android:stretchMode="columnWidth"
-                android:gravity="center_vertical"
-                android:layout_marginTop="16dp">
-            </GridView>
+                android:paddingEnd="12dp"
+                android:paddingRight="12dp"
+                android:paddingStart="8dp"
+                android:paddingLeft="8dp"
+                android:layout_below="@id/line_interest1">
+
+            </androidx.recyclerview.widget.RecyclerView>
 
 
             <LinearLayout
@@ -160,7 +163,7 @@
                 android:layout_width="312dp"
                 android:layout_height="48dp"
                 android:layout_marginTop="40dp"
-                android:layout_below="@id/gv_interest1"
+                android:layout_below="@id/recycler1"
                 android:layout_centerHorizontal="true">
 
                 <ImageView
@@ -190,19 +193,18 @@
                 android:layout_below="@id/layout_title2"
                 android:layout_marginTop="8dp"/>
 
-            <GridView
-                android:id="@+id/gv_interest2"
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler2"
                 android:layout_width="312dp"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/line_interest2"
                 android:layout_centerHorizontal="true"
-                android:verticalSpacing="0dp"
-                android:horizontalSpacing="0dp"
-                android:numColumns="1"
-                android:stretchMode="columnWidth"
-                android:gravity="center_vertical"
-                android:layout_marginTop="16dp">
-            </GridView>
+                android:paddingEnd="12dp"
+                android:paddingRight="12dp"
+                android:paddingStart="8dp"
+                android:paddingLeft="8dp"
+                android:layout_below="@id/line_interest2">
+
+            </androidx.recyclerview.widget.RecyclerView>
 
 
             <LinearLayout
@@ -210,7 +212,7 @@
                 android:layout_width="312dp"
                 android:layout_height="48dp"
                 android:layout_marginTop="40dp"
-                android:layout_below="@id/gv_interest2"
+                android:layout_below="@id/recycler2"
                 android:layout_centerHorizontal="true">
 
                 <ImageView
@@ -254,6 +256,8 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="48dp">
             </GridView>
+
+
 
 
 
