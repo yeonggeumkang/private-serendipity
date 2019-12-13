@@ -65,6 +65,10 @@
             android:name=".MyStoryActivity"
             android:theme="@style/AppTheme.ActionBar.Transparent" />
 
+        <activity
+            android:name=".InterestSearchSpecActivity"
+            android:theme="@style/AppTheme.ActionBar.Transparent" />
+
     </application>
 
 </manifest>

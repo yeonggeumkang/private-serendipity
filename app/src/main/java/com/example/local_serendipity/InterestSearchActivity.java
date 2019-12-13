@@ -33,6 +33,14 @@ public class InterestSearchActivity extends AppCompatActivity {
         if(selected){
             btnNext.setBackgroundColor(getColor(R.color.colorCornflowerBlue));
         }
+        btnNext.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(InterestSearchActivity.this, InterestSearchSpecActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
