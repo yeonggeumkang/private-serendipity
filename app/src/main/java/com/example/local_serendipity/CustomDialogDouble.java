@@ -50,7 +50,7 @@ public class CustomDialogDouble extends Dialog {
     }
 
 
-    // 클릭버튼이 확인과 취소 두개일때 생성자 함수로 이벤트를 받는다
+    // 생성자
     public CustomDialogDouble(Context context,
                               String content, View.OnClickListener leftListener,
                               View.OnClickListener rightListener) {

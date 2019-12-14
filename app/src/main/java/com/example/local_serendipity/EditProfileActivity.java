@@ -4,10 +4,12 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -17,6 +19,7 @@ public class EditProfileActivity extends AppCompatActivity {
 
     private CustomDialogDouble mDialog;
     Button btnBody1, btnBody2, btnBody3, btnBody4;
+    EditText etTF1, etTF2, etTF3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -94,6 +97,35 @@ public class EditProfileActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(EditProfileActivity.this, InterestSearchActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        //Set True or False
+        etTF1 = (EditText)findViewById(R.id.et_tf1);
+        etTF2 = (EditText)findViewById(R.id.et_tf2);
+        etTF3 = (EditText)findViewById(R.id.et_tf3);
+
+        etTF1.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                etTF1.setText("");
+                return false;
+            }
+        });
+
+        etTF2.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                etTF2.setText("");
+                return false;
+            }
+        });
+
+        etTF3.setOnTouchListener(new View.OnTouchListener() {
+            @Override
+            public boolean onTouch(View view, MotionEvent motionEvent) {
+                etTF3.setText("");
+                return false;
             }
         });
     }
