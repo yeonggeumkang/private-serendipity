@@ -46,8 +46,36 @@ public class RecyclerAdapter2 extends RecyclerView.Adapter<RecyclerAdapter2.View
     // onBindViewHolder() - position에 해당하는 데이터를 뷰홀더의 아이템뷰에 표시.
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
+
         String text = mData.get(position) ;
-        holder.btnItem.setText(text) ;
+        holder.btnItem.setText(text);
+
+        int len = mData.get(position).length(); //단어의 길이.
+        ViewGroup.LayoutParams param = holder.btnItem.getLayoutParams();
+        switch(len){
+            case 2:
+                param.width = 165;
+                break;
+            case 3:
+                param.width = 190;
+                break;
+            case 4:
+                param.width = 220;
+                break;
+            case 5:
+                param.width = 260;
+                break;
+            case 6:
+                param.width = 300;
+                break;
+            case 7:
+                param.width = 310;
+                break;
+            case 8:
+                param.width = 345;
+                break;
+        }
+        holder.btnItem.setLayoutParams(param);
     }
 
     // getItemCount() - 전체 데이터 갯수 리턴.

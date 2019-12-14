@@ -45,36 +45,50 @@ public class InterestSearchSpecActivity extends AppCompatActivity {
         }
 
         //gridview
-        ArrayList<String> list = new ArrayList<>();
-        list.add("자전거");
-        list.add("배드민턴");
-        list.add("테니스/스쿼시");
-        list.add("볼링");
-        list.add("스키/보드");
-        list.add("골프");
+        ArrayList<String> listSports = new ArrayList<>();
+        listSports.add("자전거");
+        listSports.add("볼링");
+        listSports.add("클라이밍");
+        listSports.add("탁구");
+        listSports.add("야구");
+        listSports.add("펜싱");
 
-        list.add("클라이밍");
-        list.add("다이어트");
-        list.add("헬스/크로스핏");
-        list.add("탁구");
-        list.add("요가/필라테스");
-        list.add("농구");
+        listSports.add("배드민턴");
+        listSports.add("스키/보드");
+        listSports.add("다이어트");
+        listSports.add("요가/필라테스");
+        listSports.add("배구");
+        listSports.add("크루즈보드");
+        listSports.add("테니스/스쿼시");
 
-        list.add("야구");
-        list.add("배구");
-        list.add("스케이트/인라인");
-        list.add("펜싱");
-        list.add("크루즈보드");
+        listSports.add("스케이트/인라인");
+        listSports.add("골프");
+        listSports.add("헬스/크로스핏");
+        listSports.add("농구");
 
-            // 커스텀 아답타 생성
-        GridAdapter adapterA = new GridAdapter (getApplicationContext(),list);
-        //GridView gv1 = (GridView)findViewById(R.id.gv_interest1);
-        //GridView gv2 = (GridView)findViewById(R.id.gv_interest2);
-        GridView gv3 = (GridView)findViewById(R.id.gv_interest3);
+        ArrayList<String> listMusic = new ArrayList<>();
+        listMusic.add("노래/보컬");
+        listMusic.add("기타/베이스");
+        listMusic.add("우쿨렐레");
+        listMusic.add("드럼");
+        listMusic.add("피아노");
+        listMusic.add("바이올린");
 
-        //gv1.setAdapter(adapterA);
-        //gv2.setAdapter(adapterA);
-        gv3.setAdapter(adapterA);
+        listMusic.add("플룻");
+        listMusic.add("오카리나");
+        listMusic.add("밴드/합주");
+        listMusic.add("작사/작곡");
+        listMusic.add("인디음악");
+        listMusic.add("랩/힙합");
+        listMusic.add("클래식");
+
+        listMusic.add("재즈");
+        listMusic.add("락/메탈");
+        listMusic.add("일렉");
+        listMusic.add("국악");
+        listMusic.add("찬양/CCM");
+        listMusic.add("뉴에이지");
+
 
 
         //리사이클러뷰에 표시할 데이터 리스트 생성.
@@ -83,15 +97,16 @@ public class InterestSearchSpecActivity extends AppCompatActivity {
         RecyclerView recyclerView1 = findViewById(R.id.recycler1) ;
         RecyclerView recyclerView2 = findViewById(R.id.recycler2) ;
 
-        recyclerView1.setLayoutManager(new StaggeredGridLayoutManager(3,StaggeredGridLayoutManager.VERTICAL));
-        recyclerView2.setLayoutManager(new StaggeredGridLayoutManager(3,StaggeredGridLayoutManager.VERTICAL));
+        recyclerView1.setLayoutManager(new StaggeredGridLayoutManager(6,StaggeredGridLayoutManager.HORIZONTAL));
+        recyclerView2.setLayoutManager(new StaggeredGridLayoutManager(7,StaggeredGridLayoutManager.HORIZONTAL));
 
         //recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)) ;
 
         // 리사이클러뷰에 SimpleTextAdapter 객체 지정.
-        RecyclerAdapter2 adapter = new RecyclerAdapter2(list) ;
-        recyclerView1.setAdapter(adapter) ;
-        recyclerView2.setAdapter(adapter);
+        RecyclerAdapter2 adapterSports = new RecyclerAdapter2(listSports) ;
+        RecyclerAdapter2 adapterMusic = new RecyclerAdapter2(listMusic);
+        recyclerView1.setAdapter(adapterSports);
+        recyclerView2.setAdapter(adapterMusic);
     }
 
 

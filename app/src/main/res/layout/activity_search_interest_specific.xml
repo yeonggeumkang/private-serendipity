@@ -149,11 +149,8 @@
                 android:layout_width="312dp"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:paddingEnd="12dp"
-                android:paddingRight="12dp"
-                android:paddingStart="8dp"
-                android:paddingLeft="8dp"
-                android:layout_below="@id/line_interest1">
+                android:layout_below="@id/line_interest1"
+                android:layout_marginTop="16dp">
 
             </androidx.recyclerview.widget.RecyclerView>
 
@@ -198,11 +195,8 @@
                 android:layout_width="312dp"
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
-                android:paddingEnd="12dp"
-                android:paddingRight="12dp"
-                android:paddingStart="8dp"
-                android:paddingLeft="8dp"
-                android:layout_below="@id/line_interest2">
+                android:layout_below="@id/line_interest2"
+                android:layout_marginTop="16dp">
 
             </androidx.recyclerview.widget.RecyclerView>
 
