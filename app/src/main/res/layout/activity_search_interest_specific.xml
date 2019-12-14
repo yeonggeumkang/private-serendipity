@@ -193,7 +193,7 @@
                 android:layout_below="@id/layout_title2"
                 android:layout_marginTop="8dp"/>
 
-            <androidx.recyclerview.widget.RecyclerView
+            <com.riontech.staggeredtextgridview.StaggeredTextGridView
                 android:id="@+id/recycler2"
                 android:layout_width="312dp"
                 android:layout_height="wrap_content"
@@ -204,7 +204,7 @@
                 android:paddingLeft="8dp"
                 android:layout_below="@id/line_interest2">
 
-            </androidx.recyclerview.widget.RecyclerView>
+            </com.riontech.staggeredtextgridview.StaggeredTextGridView>
 
 
             <LinearLayout
