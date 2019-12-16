@@ -25,6 +25,8 @@ public class YourProfileActivity extends AppCompatActivity {
 
     private ClaimDialog mClaimDialog;
     private CustomDialogChat mChatDialog;
+    boolean folded;
+    String intro2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,11 +46,11 @@ public class YourProfileActivity extends AppCompatActivity {
         user.add("무교");
 
         //자기소개 index 8
-        //user.add(null);
-        user.add("안녕하세요 저희는 성균관대학교 교육학과에서 현대학습이론 과목을 수강하며" +
+        user.add(null);
+        /*user.add("안녕하세요 저희는 성균관대학교 교육학과에서 현대학습이론 과목을 수강하며" +
                 " 발표불안에 대한 탐구를 진행중입니다. 이에 여러분들의 발표불안에 대한 개인적인 " +
                 "생각을 듣고자 본 설문을 진행하게 되었습니다. 본인의 주관적인 생각을 솔직하게 " +
-                "답변해주시면 감사하겠습니다. 번호를 남겨주시면 추첨을 통해 소정의 기프티콘을 지급하도록 하겠습니다. 감사합니다! :D ");
+                "답변해주시면 감사하겠습니다. 번호를 남겨주시면 추첨을 통해 소정의 기프티콘을 지급하도록 하겠습니다. 감사합니다! :D ");*/
 
         //진실거짓 index 9-11
         user.add(null);
@@ -104,18 +106,30 @@ public class YourProfileActivity extends AppCompatActivity {
         Button btnIntroduction = (Button)findViewById(R.id.btn_submit_intro);
         String intro = (String)user.get(8);
 
-        Button btnFold = (Button)findViewById(R.id.btn_fold);
+        final Button btnFold = (Button)findViewById(R.id.btn_fold);
         btnFold.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
-                tvIntroduction.setText((String)user.get(8));
+                if(folded==false){
+                    //접어야함
+                    btnFold.setRotationX(180);
+                    tvIntroduction.setText(intro2+"…");
+                    folded=true;
+                } else {
+                    // 펴야함
+                    btnFold.setRotationX(180);
+                    tvIntroduction.setText((String)user.get(8));
+                    folded=false;
+                }
+
             }
         });
 
         if(user.get(8) == null) {
             tvIntroduction.setVisibility(View.GONE);
+            btnFold.setVisibility(View.GONE);
         } else if(intro.length()>72){
-            String intro2 = intro.substring(0, 70);
+            intro2 = intro.substring(0, 70);
             tvIntroduction.setText(intro2+"…");
             btnIntroduction.setVisibility(View.GONE);
         } else {

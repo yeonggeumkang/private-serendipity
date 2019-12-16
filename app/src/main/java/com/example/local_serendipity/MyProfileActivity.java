@@ -26,6 +26,9 @@ public class MyProfileActivity extends AppCompatActivity {
     int count = 0;
     FragmentPagerAdapter adapterViewPager;
 
+    boolean folded = true;
+    String intro2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -103,15 +106,36 @@ public class MyProfileActivity extends AppCompatActivity {
         Button btnIntroduction = (Button)findViewById(R.id.btn_submit_intro);
         String intro = (String)user.get(8);
 
+        final Button btnFold = (Button)findViewById(R.id.btn_fold);
+        btnFold.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                if(folded==false){
+                    //접어야함
+                    btnFold.setRotationX(180);
+                    tvIntroduction.setText(intro2+"…");
+                    folded=true;
+                } else {
+                    // 펴야함
+                    btnFold.setRotationX(180);
+                    tvIntroduction.setText((String)user.get(8));
+                    folded=false;
+                }
+
+            }
+        });
+
         if(user.get(8) == null) {
             tvIntroduction.setVisibility(View.GONE);
+            btnFold.setVisibility(View.GONE);
         } else if(intro.length()>72){
-            String intro2 = intro.substring(0, 70);
+            intro2 = intro.substring(0, 70);
             tvIntroduction.setText(intro2+"…");
             btnIntroduction.setVisibility(View.GONE);
         } else {
             tvIntroduction.setText(intro);
             btnIntroduction.setVisibility(View.GONE);
+            btnFold.setVisibility(View.GONE);
         }
         btnIntroduction.setOnClickListener(new View.OnClickListener(){
                 @Override
@@ -121,13 +145,7 @@ public class MyProfileActivity extends AppCompatActivity {
                 }
             });
 
-        Button btnFold = (Button)findViewById(R.id.btn_fold);
-        btnFold.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                tvIntroduction.setText((String)user.get(8));
-            }
-        });
+
 
         //SET true or false (index 9-11)
         GridLayout gridTF = (GridLayout)findViewById(R.id.grid_tf);
